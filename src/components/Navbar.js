@@ -5,7 +5,7 @@ import Header from "./Header";
 function Navbar() {
 	return (
 		<div className="w-full m-auto">
-			<Banner status="true" />
+			<Banner status="false" />
 			<Header />
 		</div>
 	);

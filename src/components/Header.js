@@ -4,7 +4,8 @@ import { navItems, items } from "../Constants";
 import { FiMenu } from "react-icons/fi";
 import { IoMdShare } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
-import SerchBard from "./searchBar";
+import SerchBar from "./searchBar";
+import ScrollNavlinks from "./ScrollNavlinks";
 
 function Header() {
 	return (
@@ -54,7 +55,8 @@ function Header() {
 				</div>
 			</div>
 			<div className="border-b-[15px] border-[#12578f]"></div>
-			<SerchBard />
+			<SerchBar />
+			<ScrollNavlinks />
 		</div>
 	);
 }

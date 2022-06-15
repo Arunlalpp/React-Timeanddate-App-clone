@@ -98,7 +98,7 @@ function Banner({ status }) {
 					</div>
 				</div>
 			) : (
-				<div className="bg-white h-[19vh]"></div>
+				<div className="bg-white h-[17vh] md:hidden block"></div>
 			)}
 		</div>
 	);
