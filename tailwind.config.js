@@ -3,5 +3,8 @@ module.exports = {
 	theme: {
 		extend: {},
 	},
+	fontFamily: {
+		sans: "Helvetica,Arial,Sans-Serif",
+	},
 	plugins: [],
 };
