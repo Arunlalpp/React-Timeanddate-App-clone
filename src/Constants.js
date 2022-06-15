@@ -2,6 +2,7 @@ import React from "react";
 import { HiUserCircle } from "react-icons/hi";
 import { IoMdShare } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
+import { IoIosArrowDown } from "react-icons/io";
 
 const navItems = [
 	{ name: "Home" },
@@ -25,9 +26,9 @@ const items = [
 ];
 const navLinks = [
 	{ title: "Time/General" },
-	{ title: "Weather" },
+	{ title: "Weather", icon: <IoIosArrowDown /> },
 	{ title: "Time Zone" },
 	{ title: "DST Changes" },
-	{ title: "Sun & Moon" },
+	{ title: "Sun & Moon", icon: <IoIosArrowDown /> },
 ];
 export { navItems, items, navLinks };
