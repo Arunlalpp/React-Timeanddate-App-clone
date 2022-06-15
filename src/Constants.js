@@ -23,4 +23,11 @@ const items = [
 		search: <BiSearch className="text-[24px]" />,
 	},
 ];
-export { navItems, items };
+const navLinks = [
+	{ title: "Time/General" },
+	{ title: "Weather" },
+	{ title: "Time Zone" },
+	{ title: "DST Changes" },
+	{ title: "Sun & Moon" },
+];
+export { navItems, items, navLinks };
