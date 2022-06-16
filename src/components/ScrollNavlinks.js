@@ -1,5 +1,6 @@
 import React from "react";
 import { navLinks } from "../Constants";
+import ContainerCard from "./ContainerCard";
 import Footer from "./Footer";
 
 function ScrollNavlinks() {
@@ -19,6 +20,7 @@ function ScrollNavlinks() {
 					);
 				})}
 			</div>
+			<ContainerCard />
 			<Footer />
 		</div>
 	);
