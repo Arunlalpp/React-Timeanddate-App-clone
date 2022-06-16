@@ -31,4 +31,114 @@ const navLinks = [
 	{ title: "DST Changes" },
 	{ title: "Sun & Moon", icon: <IoIosArrowDown /> },
 ];
-export { navItems, items, navLinks };
+const footerLinks = [
+	{
+		title: "company",
+		contents: [
+			{
+				text: "About US",
+				link: "",
+			},
+			{
+				text: "Careers/Jobs",
+				link: "",
+			},
+			{
+				text: "10-Contact Us",
+				link: "",
+			},
+			{
+				text: "Contact Details",
+				link: "",
+			},
+			{
+				text: "Sitemap",
+				link: "",
+			},
+			{
+				text: "Newsletter",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "Services",
+		contents: [
+			{
+				text: "World Clock",
+				link: "",
+			},
+			{
+				text: "Time Zones",
+				link: "",
+			},
+			{
+				text: "Calendar",
+				link: "",
+			},
+			{
+				text: "Weather",
+				link: "",
+			},
+			{
+				text: "Sun & Moon",
+				link: "",
+			},
+			{
+				text: "Timers",
+				link: "",
+			},
+			{
+				text: "Calculators",
+				link: "",
+			},
+			{
+				text: "API",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "Legal",
+		contents: [
+			{
+				text: "Link policy",
+				link: "",
+			},
+			{
+				text: "Advertising",
+				link: "",
+			},
+			{
+				text: "Disclaimer",
+				link: "",
+			},
+			{
+				text: "Terms & Conditions",
+				link: "",
+			},
+			{
+				text: "Privacy Policy",
+				link: "",
+			},
+			{
+				text: "My Privacy",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "Sites",
+		contents: [
+			{
+				text: "Aimeanddate.no",
+				link: "",
+			},
+			{
+				text: "timeanddate.de",
+				link: "",
+			},
+		],
+	},
+];
+export { navItems, items, navLinks, footerLinks };
