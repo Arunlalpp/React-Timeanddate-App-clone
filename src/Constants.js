@@ -44,7 +44,7 @@ const footerLinks = [
 				link: "",
 			},
 			{
-				text: "10-Contact Us",
+				text: "Contact Us",
 				link: "",
 			},
 			{

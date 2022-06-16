@@ -1,9 +1,10 @@
 import React from "react";
 import { navLinks } from "../Constants";
+import Footer from "./Footer";
 
 function ScrollNavlinks() {
 	return (
-		<div className="w-full bg-[#f7f3ea]  ">
+		<div className="w-full bg-[#f7f3ea] ">
 			<div className=" flex flex-row md:overflow-hidden overflow-scroll md:max-w-[58%] m-auto">
 				{navLinks?.map((navLink) => {
 					return (
@@ -18,6 +19,7 @@ function ScrollNavlinks() {
 					);
 				})}
 			</div>
+			<Footer />
 		</div>
 	);
 }
