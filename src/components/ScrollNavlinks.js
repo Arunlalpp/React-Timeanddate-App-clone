@@ -1,12 +1,12 @@
 import React from "react";
 import { navLinks } from "../Constants";
-import ContainerCard from "./ContainerCard";
 import Footer from "./Footer";
+import WeatherCards from "./WeatherCards";
 
 function ScrollNavlinks() {
 	return (
 		<div className="w-full bg-[#f7f3ea] ">
-			<div className=" flex flex-row md:overflow-hidden overflow-scroll md:max-w-[58%] m-auto">
+			<div className=" flex flex-row md:overflow-hidden overflow-scroll 2xl:max-w-[58%]  max-w-[90%] m-auto">
 				{navLinks?.map((navLink) => {
 					return (
 						<div className="p-2">
@@ -20,7 +20,7 @@ function ScrollNavlinks() {
 					);
 				})}
 			</div>
-			<ContainerCard />
+			<WeatherCards />
 			<Footer />
 		</div>
 	);
