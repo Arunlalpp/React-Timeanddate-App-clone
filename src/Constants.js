@@ -3,6 +3,7 @@ import { HiUserCircle } from "react-icons/hi";
 import { IoMdShare } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
 import { IoIosArrowDown } from "react-icons/io";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 const navItems = [
 	{ name: "Home" },
@@ -141,4 +142,163 @@ const footerLinks = [
 		],
 	},
 ];
-export { navItems, items, navLinks, footerLinks };
+
+const cardContainers = [
+	{
+		title: "Tools & Converters",
+		contents: [
+			{
+				text: "Meeting Planner for Singapore",
+				link: "",
+			},
+			{
+				text: "Time Zone Converter for Singapore",
+				link: "",
+			},
+			{
+				text: "Event Time Announcer for Singapore",
+				link: "",
+			},
+			{
+				text: "Time difference between Singapore and other locations",
+				link: "",
+			},
+			{
+				text: "Distance calculator to/from Singapore",
+				link: "",
+			},
+			{
+				text: "Display a free clock for Singapore on your website or blog",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "Calendar & Holidays",
+		contents: [
+			{
+				more: "Create Singapore calendar",
+				link: "",
+				icon: (
+					<MdKeyboardArrowRight className="text-[20px] text-[#556bb5] font-semibold" />
+				),
+			},
+		],
+	},
+	{
+		title: "Upcoming Holidays",
+		contents: [
+			{
+				text: "10 Jul - Hari Raya Haji",
+				link: "",
+			},
+			{
+				text: "11 Jul - Day off for Hari Raya Haji",
+				link: "",
+			},
+			{
+				text: "9 Aug - National Day",
+				link: "",
+			},
+			{
+				more: "More Holidays in Singapore",
+				link: "",
+				icon: (
+					<MdKeyboardArrowRight className="text-[20px] text-[#556bb5] font-semibold" />
+				),
+			},
+		],
+	},
+	{
+		title: "Airports",
+		contents: [
+			{
+				flight: "Singapore Changi Airport,SIN About 17 km ENE of Singapore",
+				link: "",
+				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
+			},
+			{
+				flight:
+					" Senai International Airport, JHB (Malaysia)About 44 km NNW of Singapore",
+				link: "",
+				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
+			},
+			{
+				flight: " Seletar Airport, XSP About 15 km N of Singapore",
+				link: "",
+				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
+			},
+			{
+				more: "Other cities near Singapore",
+				link: "",
+				icon: (
+					<MdKeyboardArrowRight className="text-[20px] text-[#556bb5] font-semibold" />
+				),
+			},
+		],
+	},
+	{
+		cardsvgs: [
+			{
+				svg: "https://c.tadst.com/gfx/n/i/wc-cal.png",
+			},
+			{
+				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
+			},
+			{
+				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
+			},
+		],
+	},
+];
+const wethearCards = [
+	{
+		titel: "https://c.tadst.com/gfx/n/i/wc-snr.png",
+		text: "Sunrise",
+		time: "06:59",
+		direction: "67 East",
+		bg: "#efe2b4",
+		cardbg: "#fff0bd",
+	},
+	{
+		titel: "https://c.tadst.com/gfx/n/i/wc-snr.png",
+		text: "Sunrise",
+		time: "19:11",
+		direction: "239 Northwest",
+		bg: "#efdb9b",
+		cardbg: "#fff0bd",
+	},
+	{
+		titel: "https://c.tadst.com/gfx/n/i/wc-dln.png",
+		text: "Day length",
+		time: "12 hours, 12 minutes",
+		bg: "#efc985",
+		cardbg: "#ffd589",
+	},
+	{
+		titel:
+			"https://www.timeanddate.com/scripts/moon.php?m=1&i=0.924&p=4.024&r=0.736",
+		text: "Moon 92.4%",
+		time: "Set-09:44",
+		direction: "rise-22:21",
+		bg: "#d4d3d1",
+		cardbg: "#e1e0dd",
+	},
+	{
+		titel: "https://c.tadst.com/gfx/n/tides-icon-high.svg",
+		text: "Hight Tide",
+		time: "Hight-00:04",
+		direction: "Hight-14:19",
+		bg: "#7cc4cb",
+		cardbg: "#7fcfd7",
+	},
+	{
+		titel: "https://c.tadst.com/gfx/n/tides-icon-low.svg",
+		text: "Low tide",
+		time: "Low-07:02",
+		direction: "Low-19:19",
+		bg: "#7cc4cb",
+		cardbg: "#7fcfd7",
+	},
+];
+export { navItems, items, navLinks, footerLinks, cardContainers, wethearCards };
