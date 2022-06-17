@@ -10,3 +10,15 @@
     height: 110px;
     display: flex;
 }
+@media only screen and (max-width: 768px) {
+
+    .banner-image {
+        display: none;
+    }
+
+    .banner-mobile {
+        background-color: #edf9f1;
+        display: block;
+        height: 21vh;
+    }
+}
