@@ -301,4 +301,39 @@ const wethearCards = [
 		cardbg: "#7fcfd7",
 	},
 ];
-export { navItems, items, navLinks, footerLinks, cardContainers, wethearCards };
+
+
+const clockCards = [
+	{
+		titel: "https://c.tadst.com/gfx/n/i/wc-tmz.png",
+		text: "Time Zone",
+		time: "SGT (Singapore Time)",
+		direction: "UTC/GMT +8 hours",
+		bg: "#bfdba8",
+		cardbg: "#c9e9b0",
+	},
+	{
+		titel: "https://c.tadst.com/gfx/n/i/wc-nodst.png",
+		text: "No DST",
+		time: "No Daylight Saving Time in 2022",
+		bg: "#a3d180",
+		cardbg: "#aadd83",
+	},
+	{
+		titel: "//c.tadst.com/gfx/n/i/wc-dff.png",
+		text: "Difference",
+		time: "2:30 hours ahead of",
+		direction: "Tiruchirappalli",
+		bg: "#64b5df",
+		cardbg: "#64beed",
+	},
+];
+export {
+	navItems,
+	items,
+	navLinks,
+	footerLinks,
+	cardContainers,
+	wethearCards,
+	clockCards,
+};
