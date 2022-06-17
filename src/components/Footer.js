@@ -7,7 +7,7 @@ function Footer() {
 	return (
 		<div className="bg-[#ecf3fc]">
 			<div className="bg-[#006fb6] w-full">
-				<div className=" 2xl:max-w-[58%]  max-w-[81%] m-auto flex flex-row justify-between p-2">
+				<div className=" 2xl:max-w-[58%]  max-w-[80%] m-auto flex flex-row justify-between p-2">
 					<span className="text-[#f8eab9] font-sans text-[14px] flex flex-row items-center">
 						How was your experience?
 						<span>

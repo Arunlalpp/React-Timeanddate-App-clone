@@ -4,8 +4,8 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 function ClockCard() {
 	return (
-		<div className="w-full bg-white md:pl-[3rem]">
-			<div className="grid grid-cols-2 gap-2 md:grid-cols-3 md:w-[30vw] w-none">
+		<div className="w-full bg-white md:pl-[1rem]">
+			<div className="grid grid-cols-2 gap-2 md:grid-cols-3 md:w-[25vw] w-none">
 				{clockCards?.map((clockCard) => {
 					return (
 						<div
@@ -32,7 +32,7 @@ function ClockCard() {
 			</div>
 			<div className="">
 				<div className="text-[15px] text-[#556bb5] font-sans pt-2 md:flex-row flex flex-col">
-					<span className="flex flex-row items-center w-[60%]">
+					<span className="flex flex-row items-center w-[50%]">
 						About SGT — Singapore Time
 						<span>
 							<MdKeyboardArrowRight className="text-[20px] text-[#556bb5] font-semibold" />

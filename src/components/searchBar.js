@@ -4,7 +4,7 @@ import FlagLogo from "../images/sg.png";
 function searchBar() {
 	return (
 		<div className="bg-[#176db3] w-full py-3">
-			<div className="max-w-[90%] md:max-w-[58%] m-auto mt-2 md:flex flex-row justify-between">
+			<div className="m-auto 2xl:max-w-[58%]  max-w-[80%] mt-2 md:flex flex-row justify-between">
 				<div className="flex flex-row">
 					<div className="">
 						<img className="h-[25px] w-[48px]" src={FlagLogo} alt="" />

@@ -5,7 +5,7 @@ function ClockContainer() {
 	return (
 		<div>
 			<div className="bg-white w-full py-4">
-				<div className="m-auto 2xl:max-w-[58%]  max-w-[90%]">
+				<div className="m-auto 2xl:max-w-[58%]  max-w-[80%]">
 					<div className="flex flex-row justify-between ">
 						<div className="flex md:flex-row  flex-col w-[100%] ">
 							<div className="bg-[#f0f7fd] border-l-4 border-[#c3d3e0] grid place-content-center md:w-[30%]">

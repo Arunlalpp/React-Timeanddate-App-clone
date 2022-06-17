@@ -10,7 +10,7 @@ import ScrollNavlinks from "./ScrollNavlinks";
 function Header() {
 	return (
 		<div className="bg-[#333] w-full  md:block sticky top-0">
-			<div className="2xl:max-w-[58%] m-auto max-w-[90%]  md:flex flex-row justify-between text-white items-center h-[40px] md:block hidden">
+			<div className="2xl:max-w-[58%] m-auto max-w-[80%]  md:flex flex-row justify-between text-white items-center h-[40px] md:block hidden">
 				{navItems?.map((navitem) => {
 					return (
 						<div className="md:flex items-center p-2">
