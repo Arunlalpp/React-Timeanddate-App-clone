@@ -8,6 +8,7 @@
     background: #edf9f1 url('https://c.tadst.com/gfx/n/banner--2021.png') top no-repeat;
     background-size: 2090px auto;
     height: 110px;
+    position: relative;
     display: flex;
 }
 @media only screen and (max-width: 768px) {

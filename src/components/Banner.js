@@ -4,9 +4,9 @@ function Banner() {
 	return (
 		<div>
 			<div className="banner-image">
-				<div className="relative min-w-[2160px] w-1200px flex-grow-0 flex-shrink-0 basis-auto my-0 mx-auto">
+				<div className="flex-grow-0 flex-shrink-0 basis-auto my-0 mx-auto">
 					<svg
-						className="max-w-[260px] h-[35px] absolute md:top-[58%] md:left-[21%] left-[7%]"
+						className="max-w-[260px] h-[35px] absolute md:top-[58%] md:left-[11%] 2xl:left-[22%]"
 						width="357"
 						height="48"
 						viewBox="0 0 357 48"
