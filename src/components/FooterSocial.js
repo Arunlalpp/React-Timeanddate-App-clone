@@ -3,11 +3,11 @@ import React from "react";
 function FooterSocial() {
 	return (
 		<div>
-			<footer class="text-center md:text-left pb-[3.5rem]">
+			<footer class="text-center md:text-left pb-[3.5rem] md:pb-0">
 				<span className="text-center  font-semibold text-[#454545]">
 					Follow Us
 				</span>
-				<div class="container px-1 pt-1 md:p-0">
+				<div class="container px-1 pt-1 md:p-0 md:ml-[-0.2rem]">
 					<div class="flex justify-center  mb-1">
 						<a
 							href="#!"

@@ -3,14 +3,18 @@ import FlagLogo from "../images/sg.png";
 
 function searchBar() {
 	return (
-		<div className="bg-[#176db3] w-full py-3">
-			<div className="m-auto 2xl:max-w-[58%]  max-w-[80%] mt-2 md:flex flex-row justify-between">
+		<div className="bg-[#176db3] w-full py-3  md:h-[82px]">
+			<div className="m-auto 2xl:max-w-[57%]  max-w-[80%] mt-2 md:flex flex-row justify-between md:mt-3">
 				<div className="flex flex-row">
 					<div className="">
-						<img className="h-[25px] w-[48px]" src={FlagLogo} alt="" />
+						<img
+							className="h-[25px] w-[48px] md:h-[26px] md:w-[40px]"
+							src={FlagLogo}
+							alt=""
+						/>
 					</div>
 					<div className="text-[24px] font-semibold text-white leading-1 mb-[4px]">
-						<p className="leading-[1] ml-2 font-sans">
+						<p className="leading-[1] ml-2 md:ml-3 font-sans">
 							Current Local Time in Singapore, Singapore
 						</p>
 					</div>

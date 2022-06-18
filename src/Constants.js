@@ -302,7 +302,6 @@ const wethearCards = [
 	},
 ];
 
-
 const clockCards = [
 	{
 		titel: "https://c.tadst.com/gfx/n/i/wc-tmz.png",

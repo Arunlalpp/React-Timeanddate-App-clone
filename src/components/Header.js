@@ -6,6 +6,7 @@ import { IoMdShare } from "react-icons/io";
 import { BiSearch } from "react-icons/bi";
 import SerchBar from "./searchBar";
 import ScrollNavlinks from "./ScrollNavlinks";
+import BreadCrums from "./BreadCrums";
 
 function Header() {
 	return (
@@ -54,7 +55,7 @@ function Header() {
 					<BiSearch className="text-[34px] text-white p-2" />
 				</div>
 			</div>
-			<div className="border-b-[15px] border-[#12578f]"></div>
+			<BreadCrums />
 			<SerchBar />
 			<ScrollNavlinks />
 		</div>

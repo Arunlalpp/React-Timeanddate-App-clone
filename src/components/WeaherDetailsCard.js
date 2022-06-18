@@ -8,7 +8,7 @@ function WeaherDetailsCard() {
 			<div className="m-auto 2xl:max-w-[58%]  max-w-[80%]">
 				<div className="flex md:flex-row flex-col ">
 					<div className="md:w-[19vw] w-none">
-						<div className="flex flex-row md:gap-[12rem] gap-[16rem] ">
+						<div className="flex flex-row md:gap-[12rem] gap-[9rem] ">
 							<div className="">
 								<div className="flex flex-col">
 									<span className="text-[20px] text-[#454545] font-medium">

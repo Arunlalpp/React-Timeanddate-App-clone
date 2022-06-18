@@ -7,7 +7,7 @@ import WeatherCards from "./WeatherCards";
 function ScrollNavlinks() {
 	return (
 		<div className="w-full bg-[#f7f3ea] ">
-			<div className=" flex flex-row md:overflow-hidden overflow-scroll 2xl:max-w-[58%]  max-w-[80%] m-auto">
+			<div className=" flex flex-row md:overflow-hidden overflow-scroll 2xl:max-w-[58%]  max-w-[98%] m-auto">
 				{navLinks?.map((navLink) => {
 					return (
 						<div className="p-2">
