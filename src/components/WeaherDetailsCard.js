@@ -4,11 +4,11 @@ import { IoMdSettings } from "react-icons/io";
 
 function WeaherDetailsCard() {
 	return (
-		<div className="bg-white w-full pt-[2rem]">
-			<div className="m-auto 2xl:max-w-[58%]  max-w-[80%]">
-				<div className="flex md:flex-row flex-col ">
-					<div className="md:w-[19vw] w-none">
-						<div className="flex flex-row md:gap-[12rem] gap-[9rem] ">
+		<div className="bg-white  pt-[0.5rem] ml-2">
+			<div className="m-auto 2xl:max-w-[56.5%]  max-w-[90%]">
+				<div className="flex md:flex-row flex-col leading-7">
+					<div className="md:w-[20vw] w-none">
+						<div className="flex flex-row md:gap-[12rem] gap-[16rem] ">
 							<div className="">
 								<div className="flex flex-col">
 									<span className="text-[20px] text-[#454545] font-medium">
@@ -34,7 +34,7 @@ function WeaherDetailsCard() {
 							</div>
 						</div>
 						<div className="border-t-[1px] border-[#ccc]">
-							<div className="flex flex-row justify-between items-center">
+							<div className="flex flex-row justify-between items-center text-[18px] text-[#454545]">
 								<span>Sun 19.</span>
 								<img
 									className="w-[40px] h-[40px]"
@@ -45,7 +45,7 @@ function WeaherDetailsCard() {
 							</div>
 						</div>
 						<div className="border-t-[1px] border-[#ccc]">
-							<div className="flex flex-row justify-between items-center">
+							<div className="flex flex-row justify-between items-center text-[18px] text-[#454545]">
 								<span>Mon 20.</span>
 								<img
 									className="w-[40px] h-[40px]"

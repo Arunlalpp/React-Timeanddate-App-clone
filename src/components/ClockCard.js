@@ -4,17 +4,17 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 function ClockCard() {
 	return (
-		<div className="w-full bg-white md:pl-[1rem]">
-			<div className="grid grid-cols-2 gap-2 md:grid-cols-3 md:w-[25vw] w-none">
+		<div className="w-full bg-white md:pl-[3rem]">
+			<div className="grid grid-cols-2 gap-2 md:grid-cols-3 2xl:w-[26vw]  w-none ">
 				{clockCards?.map((clockCard) => {
 					return (
 						<div
-							className="w-[100%] hover:shadow-2xl cursor-pointer"
+							className="w-[100%] hover:shadow-2xl cursor-pointer leading-3 text-center"
 							style={{ backgroundColor: `${clockCard.cardbg}` }}
 						>
-							<div className="grid  place-items-center ">
+							<div className="grid  place-items-center mt-[0.7rem]">
 								<img className="" src={clockCard.titel} alt="" />
-								<span className="pb-3 text-[#000] font-semibold text-[18px]">
+								<span className="pb-3 text-[#000] font-semibold text-[19px] mt-2">
 									{clockCard.text}
 								</span>
 							</div>

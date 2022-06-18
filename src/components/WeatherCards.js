@@ -6,8 +6,8 @@ import { AiFillQuestionCircle } from "react-icons/ai";
 
 function WeatherCards() {
 	return (
-		<div className="w-full bg-white">
-			<div className="2xl:max-w-[58%]  max-w-[90%] m-auto py-4">
+		<div className="w-full bg-white pt-2">
+			<div className="2xl:max-w-[56.5%]  max-w-[90%] m-auto py-4">
 				<div className="grid grid-cols-2 gap-2 md:grid-cols-6">
 					{wethearCards?.map((wethearCard) => {
 						return (

@@ -4,15 +4,15 @@ import WeaherDetailsCard from "./WeaherDetailsCard";
 function ClockContainer() {
 	return (
 		<div>
-			<div className="bg-white w-full py-4">
-				<div className="flex flex-row justify-between 2xl:max-w-[58%]  max-w-[80%] m-auto">
-					<div className="flex md:flex-row  flex-col w-[100%] ">
-						<div className="bg-[#f0f7fd] border-l-4 border-[#c3d3e0] grid place-content-center md:w-[30%]">
+			<div className="bg-white w-full py-6">
+				<div className="flex flex-row justify-between 2xl:max-w-[56.5%]  max-w-[90%] m-auto">
+					<div className="flex md:flex-row  flex-col w-[100%] gap-5 ">
+						<div className="bg-[#f0f7fd] border-l-4 border-[#c3d3e0] grid place-content-center md:w-[14vw]">
 							<svg
-								className="p-2"
+								className="p-[0.2rem] ml-3"
 								xmlns="http://www.w3.org/2000/svg"
-								width="120"
-								height="120"
+								width="125"
+								height="125"
 								viewBox="0 0 120 120"
 								class="analog-clock "
 							>
@@ -20,7 +20,7 @@ function ClockContainer() {
 									<path
 										d="M0 60c0 33.137 26.863 60 60 60s60-26.863 60-60S93.137 0 60 0 0 26.863 0 60z"
 										class="analog-clock__face"
-										fill="#f1f1f1"
+										fill="#454545"
 									></path>
 									<g
 										class="analog-clock__marker analog-clock__marker-hour"
@@ -249,80 +249,85 @@ function ClockContainer() {
 								</span>
 							</div>
 						</div>
-						<table className="ml-4 text-left ">
-							<tbody>
-								<tr className="border-b-[1px] border-[#ccc]">
-									<th className="py-1 text-[14px] text-[#454545] font-sans font-medium">
-										Country:
-									</th>
-									<td>
-										<a
-											className="text-[#556bb5] text-[14px] hover:underline"
-											href="/"
-										>
-											Singapore
-										</a>
-									</td>
-								</tr>
-								<tr className="border-b-[1px] border-[#ccc]">
-									<th className="py-1 text-[14px] text-[#454545] font-sans font-medium">
-										Lat/Long:
-									</th>
-									<td>
-										<span className="text-[14px] text-[#454545]">
-											{" "}
-											1°17'N / 103°51'E
-										</span>
-									</td>
-								</tr>
-								<tr className="border-b-[1px] border-[#ccc]">
-									<th className="py-1 text-[14px] text-[#454545] font-sans font-medium">
-										Elevation:
-									</th>
-									<td>
-										<span className="text-[14px] text-[#454545]">93 m</span>
-									</td>
-								</tr>
-								<tr className="border-b-[1px] border-[#ccc]">
-									<th className="py-1 text-[14px] text-[#454545] font-sans font-medium">
-										Currency:
-									</th>
-									<td>
-										<span className="text-[14px] text-[#454545]">
-											Singapore Dollar (SGD)
-										</span>
-									</td>
-								</tr>
-								<tr className="border-b-[1px] border-[#ccc]">
-									<th className="py-1 text-[14px] text-[#454545] font-sans font-medium">
-										Languages:
-									</th>
-									<td>
-										<span className="text-[14px] text-[#454545]">
-											English, Malay, Tamil, …
-										</span>
-									</td>
-								</tr>
-								<tr>
-									<th className="py-1 text-[14px] text-[#454545] font-sans font-medium">
-										Country Code:
-									</th>
-									<td>
-										<span className="text-[14px] text-[#454545]">+65</span>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div className="bg-white md:block hidden w-full">
-						<div className="relative">
-							<img src="https://c.tadst.com/gfx/citymap/sg-10.png?10" alt="" />
+						<div className="md:w-[15vw] w-[full] leading-4">
+							<div className=" flex flex-row gap-[3rem] items-center border-b-[1px] border-[#ccc] p-1">
+								<span className="py-1 text-[14px] text-[#454545] font-sans font-medium">
+									Country:
+								</span>
+								<span>
+									<a
+										className="text-[#556bb5] text-[14px] hover:underline"
+										href="/"
+									>
+										Singapore
+									</a>
+								</span>
+							</div>
+							<div className=" flex flex-row items-center gap-[2.6rem] border-b-[1px] border-[#ccc] p-1">
+								<span className="py-1 text-[14px] text-[#454545] font-sans font-medium">
+									Lat/Long:
+								</span>
+								<span>
+									<a className="text-[14px] text-[#454545]" href="/">
+										1°17'N / 103°51'E
+									</a>
+								</span>
+							</div>
+							<div className=" flex flex-row items-center gap-[2.6rem] border-b-[1px] border-[#ccc] p-1">
+								<span className="py-1 text-[14px] text-[#454545] font-sans font-medium">
+									Elevation:
+								</span>
+								<span>
+									<a className="text-[14px] text-[#454545]" href="/">
+										93 m
+									</a>
+								</span>
+							</div>
+							<div className=" flex flex-row items-center gap-[2.7rem] border-b-[1px] border-[#ccc] p-1">
+								<span className="py-1 text-[14px] text-[#454545] font-sans font-medium">
+									Currency:
+								</span>
+								<span>
+									<a className="text-[14px] text-[#454545]" href="/">
+										Singapore Dollar (SGD)
+									</a>
+								</span>
+							</div>
+							<div className=" flex flex-row items-center gap-8 border-b-[1px] border-[#ccc] p-1">
+								<span className="py-1 text-[14px] text-[#454545] font-sans font-medium">
+									Languages:
+								</span>
+								<span>
+									<a className="text-[14px] text-[#454545]" href="/">
+										English, Malay, Tamil, …
+									</a>
+								</span>
+							</div>
+							<div className=" flex flex-row items-center p-1 gap-3">
+								<span className="py-1 text-[14px] text-[#454545] font-sans font-medium">
+									Country Code:
+								</span>
+								<span>
+									<a className="text-[14px] text-[#454545]" href="/">
+										+65
+									</a>
+								</span>
+							</div>
 						</div>
-						<div className=" absolute">
+					</div>
+					<div className="bg-white md:block hidden">
+						<div className="relative">
 							<img
-								src="https://c.tadst.com/gfx/n/icon/icon-map-pin.png"
+								className="w-[450px] bg-cover hover:shadow-2xl cursor-pointer"
+								src="https://c.tadst.com/gfx/citymap/sg-10.png?10"
 								alt=""
 							/>
+							<div className=" absolute top-[45%] left-[35%]">
+								<img
+									src="https://c.tadst.com/gfx/n/icon/icon-map-pin.png"
+									alt=""
+								/>
+							</div>
 						</div>
 					</div>
 				</div>
