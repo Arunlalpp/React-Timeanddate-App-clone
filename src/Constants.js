@@ -26,11 +26,17 @@ const items = [
 	},
 ];
 const navLinks = [
-	{ title: "Time/General" },
-	{ title: "Weather", icon: <IoIosArrowDown /> },
+	{ title: "Time/General", bg: "#ffff" },
+	{
+		title: "Weather",
+		icon: <IoIosArrowDown className="text-[13px] text-[#556bb5]" />,
+	},
 	{ title: "Time Zone" },
 	{ title: "DST Changes" },
-	{ title: "Sun & Moon", icon: <IoIosArrowDown /> },
+	{
+		title: "Sun & Moon",
+		icon: <IoIosArrowDown className="text-[13px] text-[#556bb5]" />,
+	},
 ];
 const footerLinks = [
 	{
@@ -146,6 +152,7 @@ const footerLinks = [
 const cardContainers = [
 	{
 		title: "Tools & Converters",
+		url: "https://c.tadst.com/gfx/n/i/wc-clc.png",
 		contents: [
 			{
 				text: "Meeting Planner for Singapore",
@@ -175,6 +182,7 @@ const cardContainers = [
 	},
 	{
 		title: "Calendar & Holidays",
+		url: "https://c.tadst.com/gfx/n/i/wc-cal.png",
 		contents: [
 			{
 				more: "Create Singapore calendar",
@@ -211,22 +219,20 @@ const cardContainers = [
 	},
 	{
 		title: "Airports",
+		url: "https://c.tadst.com/gfx/n/i/wc-nrb.png",
 		contents: [
 			{
 				flight: "Singapore Changi Airport,SIN About 17 km ENE of Singapore",
 				link: "",
-				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
 			},
 			{
 				flight:
 					" Senai International Airport, JHB (Malaysia)About 44 km NNW of Singapore",
 				link: "",
-				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
 			},
 			{
 				flight: " Seletar Airport, XSP About 15 km N of Singapore",
 				link: "",
-				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
 			},
 			{
 				more: "Other cities near Singapore",
@@ -234,19 +240,6 @@ const cardContainers = [
 				icon: (
 					<MdKeyboardArrowRight className="text-[20px] text-[#556bb5] font-semibold" />
 				),
-			},
-		],
-	},
-	{
-		cardsvgs: [
-			{
-				svg: "https://c.tadst.com/gfx/n/i/wc-cal.png",
-			},
-			{
-				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
-			},
-			{
-				svg: "https://c.tadst.com/gfx/n/i/wc-clc.png",
 			},
 		],
 	},

@@ -7,7 +7,7 @@ function ClockContainer() {
 			<div className="bg-white w-full py-6">
 				<div className="flex flex-row justify-between 2xl:max-w-[56.5%]  max-w-[90%] m-auto">
 					<div className="flex md:flex-row  flex-col w-[100%] gap-5 ">
-						<div className="bg-[#f0f7fd] border-l-4 border-[#c3d3e0] grid place-content-center md:w-[14vw]">
+						<div className="bg-[#f0f7fd] border-l-4 border-[#c3d3e0] grid place-content-center 2xl:w-[14vw] md:w-[20vw]">
 							<svg
 								className="p-[0.2rem] ml-3"
 								xmlns="http://www.w3.org/2000/svg"

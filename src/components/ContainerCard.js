@@ -3,7 +3,7 @@ import { cardContainers } from "../Constants";
 
 function ContainerCard() {
 	return (
-		<div className="bg-white w-full md:py-[6rem]">
+		<div className="bg-white w-full md:py-[3rem]">
 			<div className="m-auto 2xl:max-w-[58%]  max-w-[90%] md:flex flex-row  8xl:flex-wrap">
 				{cardContainers?.map((cardContainer) => {
 					return (

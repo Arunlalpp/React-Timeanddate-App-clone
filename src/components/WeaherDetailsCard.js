@@ -1,14 +1,15 @@
 import React from "react";
 import ClockCard from "./ClockCard";
 import { IoMdSettings } from "react-icons/io";
+import { MdKeyboardArrowRight } from "react-icons/md";
 
 function WeaherDetailsCard() {
 	return (
 		<div className="bg-white  pt-[0.5rem] ml-2">
 			<div className="m-auto 2xl:max-w-[56.5%]  max-w-[90%]">
 				<div className="flex md:flex-row flex-col leading-7">
-					<div className="md:w-[20vw] w-none">
-						<div className="flex flex-row md:gap-[12rem] gap-[16rem] ">
+					<div className="2xl:w-[20vw] md:w-[25vw] w-none">
+						<div className="flex flex-row md:gap-[12rem] gap-[12rem] ">
 							<div className="">
 								<div className="flex flex-col">
 									<span className="text-[20px] text-[#454545] font-medium">
@@ -56,6 +57,14 @@ function WeaherDetailsCard() {
 							</div>
 							<span className="text-[10px] text-[#777]">
 								Weather by CustomWeather, © 2022
+							</span>
+						</div>
+						<div>
+							<span className="flex flex-row items-center text-[#556bb5] hover:underline text-[15px] font-sans">
+								More weather details
+								<span>
+									<MdKeyboardArrowRight className="text-[20px] text-[#556bb5] font-semibold" />
+								</span>
 							</span>
 						</div>
 					</div>
