@@ -32,7 +32,7 @@ function ClockCard() {
 			</div>
 			<div className="">
 				<div className="text-[15px] text-[#556bb5] font-sans pt-2 md:flex-row flex flex-col">
-					<span className="flex flex-row items-center w-[50%]">
+					<span className="flex flex-row items-center md:w-[50%]">
 						About SGT — Singapore Time
 						<span>
 							<MdKeyboardArrowRight className="text-[20px] text-[#556bb5] font-semibold" />

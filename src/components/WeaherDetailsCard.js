@@ -9,7 +9,7 @@ function WeaherDetailsCard() {
 			<div className="m-auto 2xl:max-w-[56.5%]  max-w-[90%]">
 				<div className="flex md:flex-row flex-col leading-7">
 					<div className="2xl:w-[20vw] md:w-[25vw] w-none">
-						<div className="flex flex-row md:gap-[12rem] gap-[12rem] ">
+						<div className="flex flex-row md:gap-[12rem] gap-[11rem] ">
 							<div className="">
 								<div className="flex flex-col">
 									<span className="text-[20px] text-[#454545] font-medium">
@@ -24,7 +24,7 @@ function WeaherDetailsCard() {
 							</div>
 							<div className="flex flex-row">
 								<img
-									className="w-[80px] h-[80px] max-w-none"
+									className="w-[75px] h-[75px] max-w-none"
 									src="https://c.tadst.com/gfx/w/svg/wt-6.svg"
 									alt=""
 								/>

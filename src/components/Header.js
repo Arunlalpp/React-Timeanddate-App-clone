@@ -10,12 +10,12 @@ import BreadCrums from "./BreadCrums";
 
 function Header() {
 	return (
-		<div className="bg-[#333] w-full  md:block  top-0">
+		<div className="bg-[#333] w-full  md:block sticky top-0 ">
 			<div className="2xl:max-w-[58%] m-auto max-w-[80%]  md:flex flex-row justify-between text-white items-center h-[40px] md:block hidden">
 				{navItems?.map((navitem) => {
 					return (
 						<div className="md:flex items-center p-2">
-							<span className="md:flex flex-row items-center text-[14px] font-sans whitespace-nowrap  hidden">
+							<span className="md:flex flex-row items-center text-[14px] font-sans whitespace-nowrap  hidden cursor-pointer">
 								{navitem.name}
 								<span>
 									<IoIosArrowDown className="w-[10px] text-gray-200 ml-[0.1rem]" />

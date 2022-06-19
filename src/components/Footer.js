@@ -8,8 +8,8 @@ function Footer() {
 	return (
 		<div className="bg-[#ecf3fc]">
 			<div className="bg-[#006fb6] w-full">
-				<div className=" 2xl:max-w-[58%]  max-w-[80%] m-auto flex flex-row justify-between p-2">
-					<span className="text-[#f8eab9] font-sans text-[14px] flex flex-row items-center">
+				<div className=" 2xl:max-w-[58%]  max-w-[90%] m-auto flex flex-row justify-between p-2">
+					<span className="text-[#f8eab9] font-sans text-[14px] flex flex-row items-center whitespace-nowrap">
 						How was your experience?
 						<span>
 							<AiFillLike className="text-[24px] fill-current" />
@@ -22,7 +22,7 @@ function Footer() {
 						<span className="text-[#f8eab9] text-[14px] flex flex-row items-center">
 							Contact US
 							<span>
-								<MdMail className="text-[20px] ml-1" />
+								<MdMail className="text-[20px] ml-1 md:block hidden" />
 							</span>
 						</span>
 					</div>
