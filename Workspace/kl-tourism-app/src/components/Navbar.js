@@ -1,12 +1,14 @@
 import React from "react";
+import CardContainer from "./CardContainer";
+import NavLink from "./NavLink";
 
 function Navbar() {
 	return (
-		<div>
-			<div className=" md:flex flex-row  items-center 2xl:w-[70%] m-auto">
+		<div className="2xl:w-[70%] m-auto py-[20px] w-[95%]">
+			<div className=" md:flex flex-row  items-center">
 				<div className="w-[100%] text-center">
 					<img
-						className="w-[186px] h-[135px]"
+						className="md:w-[186px] md:h-[135px] w-[100px] h-[70px]"
 						src="http://www.keralatourism.gov.in/new-style/images/kerala-logo.jpg"
 						alt=""
 					/>
@@ -18,6 +20,8 @@ function Navbar() {
 					/>
 				</div>
 			</div>
+			<NavLink />
+			<CardContainer />
 		</div>
 	);
 }
