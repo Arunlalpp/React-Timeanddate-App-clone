@@ -1,6 +1,8 @@
 import React from "react";
 import CardContainer from "./CardContainer";
 import NavLink from "./NavLink";
+import keralaLogo from "../images/keralaLogo.jpg";
+import titleBanner from "../images/titleBanner.jpg";
 
 function Navbar() {
 	return (
@@ -11,15 +13,12 @@ function Navbar() {
 						<div className="pt-[20px] grid place-content-center md:block">
 							<img
 								className="md:w-[186px] md:h-[135px] w-[100px] h-[70px]"
-								src="http://www.keralatourism.gov.in/new-style/images/kerala-logo.jpg"
+								src={keralaLogo}
 								alt=""
 							/>
 						</div>
 						<div className="pt-[26px]">
-							<img
-								src="http://www.keralatourism.gov.in/new-style/images/title-banner.jpg"
-								alt=""
-							/>
+							<img src={titleBanner} alt="" />
 						</div>
 					</div>
 				</div>

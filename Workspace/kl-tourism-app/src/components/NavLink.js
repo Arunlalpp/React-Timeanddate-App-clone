@@ -1,5 +1,6 @@
 import React from "react";
 import { navItems } from "../Constants";
+import websiteBanner from "../images/websiteBanner.jpg";
 
 function NavLink() {
 	return (
@@ -19,11 +20,7 @@ function NavLink() {
 					})}
 				</div>
 				<div className="">
-					<img
-						className="w-[100%]"
-						src="http://www.keralatourism.gov.in/images/website-banner.jpg"
-						alt=""
-					/>
+					<img className="w-[100%]" src={websiteBanner} alt="" />
 				</div>
 			</div>
 		</div>

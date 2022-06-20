@@ -1,6 +1,8 @@
 import React from "react";
 import Footer from "./Footer";
 import NewsLetter from "./NewsLetter";
+import bottomBanner from "../images/bottomBanner.jpg";
+import subBanner from "../images/subBanner.jpg";
 
 export default function CardContainer() {
 	return (
@@ -9,7 +11,7 @@ export default function CardContainer() {
 				<div className="mb-[30px]">
 					<img
 						className="w-[100%]  md:w-[40vw] min-w-[15vw]"
-						src="http://www.keralatourism.gov.in/new-style/images/sub-banner.jpg"
+						src={subBanner}
 						alt=""
 					/>
 				</div>
@@ -45,20 +47,13 @@ export default function CardContainer() {
 					</p>
 				</div>
 				<div className="my-[30px] md:hidden block">
-					<img
-						src="http://www.keralatourism.gov.in/new-style/images/bottom-banner.jpg"
-						alt=""
-					/>
+					<img src={bottomBanner} alt="" />
 				</div>
 				<NewsLetter />
 			</div>
 
 			<div className="md:block hidden pb-[8%]">
-				<img
-					className="w-[70%]"
-					src="http://www.keralatourism.gov.in/new-style/images/bottom-banner.jpg"
-					alt=""
-				/>
+				<img className="w-[70%]" src={bottomBanner} alt="" />
 			</div>
 			<Footer />
 		</div>
