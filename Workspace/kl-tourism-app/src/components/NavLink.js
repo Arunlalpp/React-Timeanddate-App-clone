@@ -10,10 +10,14 @@ function NavLink() {
 					{navItems?.map((navitem) => {
 						return (
 							<div className="items-center">
-								<span className="text-white text-[14px] font-sans  cursor-pointer px-[12px]">
-									{navitem.name}
-									<span className="">{navitem.news}</span>
-									<span className=" lg:border-r-[2px] border-white px-[12px]"></span>
+								<span className="text-white text-[16px] whitespace-nowrap  cursor-pointer pl-[24px]">
+									<span className="navlinks">{navitem.name}</span>
+									<span className="navlinks">{navitem.news}</span>
+									<span
+										className={`lg:border-r-[2px] border-white pl-[25px] ${
+											navitem.status && "border-none"
+										}`}
+									></span>
 								</span>
 							</div>
 						);

@@ -9,7 +9,7 @@ const navItems = [
 	{ name: "PIO" },
 	{ name: "Agreements" },
 	{ name: "For Employees" },
-	{ news: "Newsletter" },
+	{ news: "Newsletter", status: true },
 ];
 const footerLinks = [
 	{
