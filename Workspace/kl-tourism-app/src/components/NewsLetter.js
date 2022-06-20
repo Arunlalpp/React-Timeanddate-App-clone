@@ -3,7 +3,7 @@ import React from "react";
 function NewsLetter() {
 	return (
 		<div>
-			<div className="bg-[#339966]">
+			<div className="bg-[#339966] md:min-w-[15.5vw]">
 				<ul className="py-[16px]">
 					<li className="list-square text-white text-[14px] ml-8 uppercase font-semibold p-3 font-sans">
 						News Letter

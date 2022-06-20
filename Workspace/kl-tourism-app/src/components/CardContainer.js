@@ -4,16 +4,16 @@ import NewsLetter from "./NewsLetter";
 
 export default function CardContainer() {
 	return (
-		<div className="2xl:w-[70%] m-auto  w-[92%]">
-			<div className="md:flex flex-row justify-between mt-[30px]">
+		<div className="2xl:w-[69%] m-auto  w-[92%] pr-[20px] pl-[20px]">
+			<div className="md:flex flex-row mt-[30px] pt-[4%] gap-[1rem]">
 				<div className="mb-[30px]">
 					<img
-						className="w-[100%]"
+						className="w-[100%]  md:w-[40vw] min-w-[15vw]"
 						src="http://www.keralatourism.gov.in/new-style/images/sub-banner.jpg"
 						alt=""
 					/>
 				</div>
-				<div className="text-[14px] text-[#333] leading-[1.42857143] font-light">
+				<div className="text-[14px] text-[#333] leading-[1.42857143] font-light pl-[rem]">
 					<p>
 						Kerala, located on the south-western tip of India, enjoys unique
 						geographical features that have made it one of the most sought-after
@@ -44,13 +44,21 @@ export default function CardContainer() {
 						climate and numerous festivals and events.
 					</p>
 				</div>
-				<div className="my-[30px]">
+				<div className="my-[30px] md:hidden block">
 					<img
 						src="http://www.keralatourism.gov.in/new-style/images/bottom-banner.jpg"
 						alt=""
 					/>
 				</div>
 				<NewsLetter />
+			</div>
+
+			<div className="md:block hidden pb-[8%]">
+				<img
+					className="w-[70%]"
+					src="http://www.keralatourism.gov.in/new-style/images/bottom-banner.jpg"
+					alt=""
+				/>
 			</div>
 			<Footer />
 		</div>
