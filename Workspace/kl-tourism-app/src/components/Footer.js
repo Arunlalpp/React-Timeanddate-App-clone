@@ -1,5 +1,7 @@
 import React from "react";
 import { footerLinks } from "../Constants";
+import CompanyLogos from "./CompanyLogos";
+import ContactDetails from "./ContactDetails";
 
 function Footer() {
 	return (
@@ -7,7 +9,7 @@ function Footer() {
 			<div className="py-6 grid grid-cols-2 bg-[#f3f3f3] md:flex flex-row justify-between md:pr-[4rem] md:pl-[4rem]">
 				{footerLinks?.map((footerLink) => {
 					return (
-						<div className=" pt-1 text-[#30416d]">
+						<div className=" pt-1 text-[#30416d] ml-8 md:ml-0">
 							<span className="text-[20px] font-news font-light">
 								{footerLink.title}
 							</span>
@@ -24,6 +26,8 @@ function Footer() {
 					);
 				})}
 			</div>
+			<CompanyLogos />
+			<ContactDetails />
 		</div>
 	);
 }
