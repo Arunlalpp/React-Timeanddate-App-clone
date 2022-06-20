@@ -6,10 +6,10 @@ import ContactDetails from "./ContactDetails";
 function Footer() {
 	return (
 		<div>
-			<div className="py-6 grid grid-cols-2 bg-[#f3f3f3] md:flex flex-row justify-between md:pr-[2rem] md:pl-[2rem]">
+			<div className="py-6 grid grid-cols-2 bg-[#f3f3f3] md:flex flex-row justify-between md:pr-[2rem] pl-[2rem]">
 				{footerLinks?.map((footerLink) => {
 					return (
-						<div className=" text-[#30416d] w-[16.66666667%]">
+						<div className=" text-[#30416d] md:w-[16.66666667%]">
 							<div className="mb-[20px]">
 								<span className="text-[22px] font-news font-light">
 									{footerLink.title}
