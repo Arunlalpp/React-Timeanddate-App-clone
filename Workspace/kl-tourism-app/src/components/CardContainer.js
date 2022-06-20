@@ -4,7 +4,7 @@ import NewsLetter from "./NewsLetter";
 
 export default function CardContainer() {
 	return (
-		<div>
+		<div className="2xl:w-[70%] m-auto  w-[92%]">
 			<div className="md:flex flex-row justify-between mt-[30px]">
 				<div className="mb-[30px]">
 					<img
@@ -13,7 +13,7 @@ export default function CardContainer() {
 						alt=""
 					/>
 				</div>
-				<div className="text-[14px] text-[#333] leading-[1.42857143]">
+				<div className="text-[14px] text-[#333] leading-[1.42857143] font-light">
 					<p>
 						Kerala, located on the south-western tip of India, enjoys unique
 						geographical features that have made it one of the most sought-after
@@ -23,7 +23,6 @@ export default function CardContainer() {
 						paradises in the world.
 					</p>
 					<br></br>
-					<br></br>
 					<p>
 						An equable climate, serene beaches, tranquil stretches of
 						backwaters, lush hill stations and exotic wildlife are the major
@@ -32,7 +31,6 @@ export default function CardContainer() {
 						other.
 					</p>
 					<br></br>
-					<br></br>
 					<p>
 						Classical art forms, colourful festivals, exotic cuisine are some of
 						the cultural marvels that await travellers. Ayurveda, the ancient
@@ -40,7 +38,6 @@ export default function CardContainer() {
 						in Ayurveda have also helped Kerala to gain a pan-global reputation
 						as a worth-visit destination.
 					</p>
-					<br></br>
 					<br></br>
 					<p>
 						Season never ends in Kerala, thanks to the year-long moderate

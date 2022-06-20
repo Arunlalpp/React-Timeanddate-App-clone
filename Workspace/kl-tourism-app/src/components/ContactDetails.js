@@ -3,7 +3,7 @@ import React from "react";
 function ContactDetails() {
 	return (
 		<div>
-			<div className="pt-4">
+			<div className="py-4">
 				<span className="text-center">
 					<h3 className="text-[16px] text-[#777] font-light">
 						Toll free No:{" "}
@@ -13,12 +13,10 @@ function ContactDetails() {
 						(within India only)
 					</h3>
 				</span>
-				<article className="text-center">
+				<article className="text-center mt-2">
 					<p className="text-[14px] text-[#777] font-light">
 						Department of Tourism, Government of Kerala, Park
-						<span className="md:hidden block">
-							<br></br>
-						</span>
+						<br className="md:hidden block"></br>
 						View, Thiruvananthapuram, Kerala, India - 695 033
 					</p>
 					<h3 className="text-[14px] text-[#777] font-light">
@@ -28,7 +26,7 @@ function ContactDetails() {
 						info@keralatourism.org
 					</a>
 				</article>
-				<div className="text-center">
+				<div className="text-center leading-5">
 					<span className="text-[14px] text-[#777] font-light">
 						All rights reserved © Kerala Tourism 2022.
 					</span>
@@ -45,7 +43,7 @@ function ContactDetails() {
 						Contact Us
 					</a>
 					<br></br>
-					<span className="text-[14px] text-[#777] text-center">
+					<span className="text-[14px] text-[#777] text-center font-light">
 						Developed & Maintained by Invis Multimedia.
 					</span>
 				</div>
