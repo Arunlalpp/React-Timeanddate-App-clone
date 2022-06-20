@@ -5,7 +5,7 @@ function NavLink() {
 	return (
 		<div>
 			<div className="bg-[#013567] md:my-[30px]">
-				<div className="md:flex flex-row items-center justify-between py-[15px]">
+				<div className="md:flex flex-row items-center justify-between py-[15px] grid grid-cols-2">
 					{navItems?.map((navitem) => {
 						return (
 							<div className="items-center">

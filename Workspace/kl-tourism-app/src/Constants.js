@@ -1,7 +1,6 @@
 const navItems = [
 	{ name: "Trade" },
 	{ name: "Tourism Administrators" },
-	{ name: "Time Zones" },
 	{ name: "Classification / Approval" },
 	{ name: "Tenders" },
 	{ name: "Empanelment" },
