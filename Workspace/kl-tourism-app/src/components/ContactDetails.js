@@ -3,7 +3,7 @@ import React from "react";
 function ContactDetails() {
 	return (
 		<div>
-			<div className="py-4">
+			<div className="py-4 pb-[2rem]">
 				<span className="text-center">
 					<h3 className="text-[16px] text-[#777] font-light">
 						Toll free No:{" "}
@@ -19,12 +19,14 @@ function ContactDetails() {
 						<br className="md:hidden block"></br>
 						View, Thiruvananthapuram, Kerala, India - 695 033
 					</p>
-					<h3 className="text-[14px] text-[#777] font-light">
-						Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail:
-					</h3>
-					<a className="text-[15px] text-[#5d95c6]" href="/">
-						info@keralatourism.org
-					</a>
+					<div className="md:flex flex-row md:justify-center items-center">
+						<h3 className="text-[14px] text-[#777] font-light">
+							Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail:
+						</h3>
+						<a className="text-[15px] text-[#5d95c6]" href="/">
+							info@keralatourism.org
+						</a>
+					</div>
 				</article>
 				<div className="text-center leading-5">
 					<span className="text-[14px] text-[#777] font-light">

@@ -7,7 +7,7 @@ import titleBanner from "../images/titleBanner.jpg";
 function Navbar() {
 	return (
 		<>
-			<div className="2xl:w-[68.8%] m-auto  w-[95%] pr-[20px] pl-[20px]">
+			<div className="2xl:w-[68.8%] m-auto  w-[95%] md:pr-[20px] md:pl-[20px]">
 				<div>
 					<div className="w-[100%] text-center md:flex flex-row justify-between">
 						<div className="pt-[20px] grid place-content-center md:block md:pl-[3px]">

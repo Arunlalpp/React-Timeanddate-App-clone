@@ -86,10 +86,6 @@ const footerLinks = [
 				link: "",
 			},
 			{
-				text: "Privacy Policy",
-				link: "",
-			},
-			{
 				text: "Varkala",
 				link: "",
 			},

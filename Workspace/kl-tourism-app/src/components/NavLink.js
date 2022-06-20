@@ -10,7 +10,7 @@ function NavLink() {
 					{navItems?.map((navitem) => {
 						return (
 							<div className="items-center">
-								<span className="text-white text-[16px] whitespace-nowrap  cursor-pointer pl-[24px]">
+								<span className="text-white md:text-[16px] text-[15px] whitespace-nowrap  cursor-pointer md:pl-[24px] pl-[15px] leading-7">
 									<span className="navlinks">{navitem.name}</span>
 									<span className="navlinks">{navitem.news}</span>
 									<span
