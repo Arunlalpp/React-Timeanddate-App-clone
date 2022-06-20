@@ -21,23 +21,23 @@ const footerLinks = [
 				link: "",
 			},
 			{
-				text: "Careers/Jobs",
+				text: "Governmental Affairs",
 				link: "",
 			},
 			{
-				text: "Contact Us",
+				text: "Governmental Affairs",
 				link: "",
 			},
 			{
-				text: "Contact Details",
+				text: "Tourism Events",
+				link: "",
+			},
+			{
+				text: "Maps",
 				link: "",
 			},
 			{
 				text: "Sitemap",
-				link: "",
-			},
-			{
-				text: "Newsletter",
 				link: "",
 			},
 		],
@@ -46,35 +46,23 @@ const footerLinks = [
 		title: "Travel Hub",
 		contents: [
 			{
-				text: "World Clock",
+				text: "Kerala at a glance",
 				link: "",
 			},
 			{
-				text: "Time Zones",
+				text: "Travel Care",
 				link: "",
 			},
 			{
-				text: "Calendar",
+				text: "Where to Stay",
 				link: "",
 			},
 			{
-				text: "Weather",
+				text: "How to?",
 				link: "",
 			},
 			{
-				text: "Sun & Moon",
-				link: "",
-			},
-			{
-				text: "Timers",
-				link: "",
-			},
-			{
-				text: "Calculators",
-				link: "",
-			},
-			{
-				text: "API",
+				text: "Travel Tips",
 				link: "",
 			},
 		],
@@ -83,19 +71,19 @@ const footerLinks = [
 		title: "Places",
 		contents: [
 			{
-				text: "Link policy",
+				text: "Munnar",
 				link: "",
 			},
 			{
-				text: "Advertising",
+				text: "Wayanadu",
 				link: "",
 			},
 			{
-				text: "Disclaimer",
+				text: "Kovalam",
 				link: "",
 			},
 			{
-				text: "Terms & Conditions",
+				text: "Periyar",
 				link: "",
 			},
 			{
@@ -103,7 +91,7 @@ const footerLinks = [
 				link: "",
 			},
 			{
-				text: "My Privacy",
+				text: "Varkala",
 				link: "",
 			},
 		],
@@ -112,11 +100,23 @@ const footerLinks = [
 		title: "Nature",
 		contents: [
 			{
-				text: "Aimeanddate.no",
+				text: "Hills",
 				link: "",
 			},
 			{
-				text: "timeanddate.de",
+				text: "Backwaters",
+				link: "",
+			},
+			{
+				text: "Beaches",
+				link: "",
+			},
+			{
+				text: "Wildlife",
+				link: "",
+			},
+			{
+				text: "Waterfalls",
 				link: "",
 			},
 		],
@@ -125,11 +125,23 @@ const footerLinks = [
 		title: "Video/Photos",
 		contents: [
 			{
-				text: "Aimeanddate.no",
+				text: "Video",
 				link: "",
 			},
 			{
-				text: "timeanddate.de",
+				text: "Photos",
+				link: "",
+			},
+			{
+				text: "360° Videos",
+				link: "",
+			},
+			{
+				text: "Royality Free Photos",
+				link: "",
+			},
+			{
+				text: "Wallpapers",
 				link: "",
 			},
 		],
@@ -138,14 +150,42 @@ const footerLinks = [
 		title: "Specialities",
 		contents: [
 			{
-				text: "Aimeanddate.no",
+				text: "Ayurveda",
 				link: "",
 			},
 			{
-				text: "timeanddate.de",
+				text: "Monsoon",
+				link: "",
+			},
+			{
+				text: "Houseboat",
+				link: "",
+			},
+			{
+				text: "Keralafood",
+				link: "",
+			},
+			{
+				text: "Festivel",
 				link: "",
 			},
 		],
 	},
 ];
-export { navItems, footerLinks };
+const companyLogos = [
+	{ url: "https://www.keralatourism.org/images/dtpc.png" },
+	{ url: "https://www.keralatourism.org/images/ktdc.jpg" },
+	{ url: "https://www.keralatourism.org/images/brdc-logo.png" },
+	{ url: "https://www.keralatourism.org/images/sargaalaya-logo.png" },
+
+	{ url: "https://www.keralatourism.org/images/sihmk.jpg" },
+	{ url: "https://www.keralatourism.org/images/responsible-tourism.jpg" },
+	{ url: "https://www.keralatourism.org/images/kitts.jpg" },
+	{
+		url: "https://www.keralatourism.org/images/adventurekeralatourism-logo.jpg",
+	},
+	{ url: "https://www.keralatourism.org/images/muziris-logo.jpg" },
+	{ url: "https://www.keralatourism.org/images/saathi-logo.png" },
+	{ url: "https://www.keralatourism.org/images/nidhi-logo.png" },
+];
+export { navItems, footerLinks, companyLogos };
