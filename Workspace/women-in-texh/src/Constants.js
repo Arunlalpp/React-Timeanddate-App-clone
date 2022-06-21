@@ -1,3 +1,5 @@
+import React from "react";
+import { HiChevronDown } from "react-icons/hi";
 const dropdownContents = [
 	{
 		title: "About us",
@@ -66,5 +68,24 @@ const dropdownContents = [
 		title: "Contact",
 	},
 ];
-
-export { dropdownContents };
+const navLinks = [
+	{
+		text: "About us",
+		icon: <HiChevronDown />,
+	},
+	{
+		text: "What we do",
+		icon: <HiChevronDown />,
+	},
+	{
+		text: "Where we are",
+		icon: <HiChevronDown />,
+	},
+	{
+		text: "Events",
+	},
+	{
+		text: "Donate",
+	},
+];
+export { dropdownContents, navLinks };
