@@ -4,7 +4,7 @@ import { womenCards } from "../Constants";
 function CardContainer() {
 	return (
 		<div>
-			<div className="pt-[50px] bg-white">
+			<div className="pt-[50px] bg-white pb-[10rem] md:pb-[2rem]">
 				<div className="py-[30px] max-w-[1080px] w-[80%] m-auto">
 					<div className="text-left mb-7">
 						<h1 className="text-[#ff3e1e] text-4xl font-extrabold ">
@@ -18,7 +18,7 @@ function CardContainer() {
 						return (
 							<div className="w-full mb-[30px]">
 								<div className="mb-[30px]">
-									<img src={womenCard.image} alt="s" />
+									<img src={womenCard.image} alt="" />
 								</div>
 								<div>
 									<h1 className="text-lg text-[#000000] text-left font-extrabold pb-4">
