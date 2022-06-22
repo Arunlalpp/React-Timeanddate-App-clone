@@ -5,7 +5,7 @@ function WomenTechGrowing() {
 		<div>
 			<div className="bg-[#15009b] py-[50px] ">
 				<div className=" md:p-[25px] max-w-[1080px] w-[80%] m-auto ">
-					<h2 className="text-4xl text-[#00f4cb] lg:text-[29px] md:w-[35vw] w-[80vw] text-center font-extrabold tracking-[0.8px]">
+					<h2 className="text-4xl text-[#00f4cb] lg:text-[29px] md:w-[78vw] w-[80vw] text-center font-extrabold tracking-[0.8px] md:tracking-normal md:text-[30px]">
 						A Growing community of <br /> 180.000 members in 6 continents
 					</h2>
 				</div>

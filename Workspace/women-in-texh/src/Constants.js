@@ -154,7 +154,7 @@ const newsItems = [
 		title: "A Success to the Women in Tech Global Movement Round Table!",
 		subText: "Jun 10, 2022  | Global ",
 		paragraph:
-			"Jun 10, 2022 | Global Our Founder and CEO of Women in Tech®, Ayumi Moore Aoki lead the WOMEN IN TECH - Global Movement Round Table at the US Ambassador to France, H.E. Denise Bauer's Residency in Paris. She lead a delegation that was made up of; Jameka Pankey, Tolulope Oke, Natascia Jun 10, 2022 | Global Our Founder and CEO of Women in Tech®, Ayumi Moore Aoki lead the WOMEN IN TECH - Global Movement Round Table at the US Ambassador to France, H.E. Denise Bauer's Residency in Paris. She lead a delegation that was made up of; Jameka Pankey, Tolulope Oke, Natascia...",
+			"We are so excited to share with you that, Women In Tech - Global Movement has partnered with École des Ponts Business School and the Circular Economy Alliance to join forces and co-create solutions and projects to support the digital transformation of public and...",
 	},
 	{
 		image:

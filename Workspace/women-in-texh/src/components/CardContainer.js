@@ -21,14 +21,14 @@ function CardContainer() {
 									<img src={womenCard.image} alt="" />
 								</div>
 								<div>
-									<h1 className="text-lg text-[#000000] text-left font-extrabold pb-4">
+									<h1 className="text-[#000000] text-left font-extrabold pb-4 text-2xl">
 										{womenCard.title}
 									</h1>
 									<p className="font-light float-right">{womenCard.content}</p>
-									<p className="font-light float-right">
+									<p className="text-right font-light text-[17px]">
 										{womenCard.subTextTop}
 									</p>
-									<p className="font-light float-right">
+									<p className="text-right font-light text-[17px]">
 										{womenCard.subTextBottom}
 									</p>
 								</div>

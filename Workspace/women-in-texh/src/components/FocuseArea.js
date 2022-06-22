@@ -25,9 +25,9 @@ function FocuseArea() {
 											alt=""
 										/>
 									</div>
-									<div className="  text-[#15009b] text-xl font-bold pb-3">
+									<div className="  text-[#15009b] text-xl font-extrabold pb-3">
 										<h1>{focuseData.text}</h1>
-										<h2 className="w-[42vw] md:w-[7vw] m-auto text-[#15009b] text-base font-bold">
+										<h2 className="w-[42vw] md:w-[23vw] lg:w-[7vw] m-auto text-[#15009b] text-[15px] font-bold">
 											{focuseData.title}
 										</h2>
 									</div>

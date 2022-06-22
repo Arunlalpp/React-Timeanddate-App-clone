@@ -8,11 +8,11 @@ function PastEvents() {
 					<h2 className="text-[35px] text-[#15009b] text-center font-extrabold">
 						Discover our past events
 					</h2>
-					<div className=" md:grid grid-cols-2 md:gap-[rem] md:mt-[4rem]">
+					<div className=" lg:grid grid-cols-2 md:mt-[4rem]">
 						<div className="">
 							<iframe
 								title="video"
-								className="w-[80vw] h-[33vh] md:w-[22vw] md:h-[13vw]"
+								className="w-[80vw] h-[33vh] md:w-[79vw] md:h-[44vw] lg:w-[37vw] lg:h-[28vw] 2xl:w-[20vw] 2xl:h-[14vw]"
 								src="https://player.vimeo.com/video/580209521?h=c1f2760aad"
 								height="450"
 							></iframe>
@@ -24,7 +24,7 @@ function PastEvents() {
 						<div className="">
 							<iframe
 								title="video"
-								className="w-[80vw] md:w-none h-[33vh]  md:w-[22vw] md:h-[13vw]"
+								className="w-[80vw] md:w-none h-[33vh]  md:w-[79vw] md:h-[44vw] lg:w-[37vw] lg:h-[28vw] 2xl:w-[20vw] 2xl:h-[14vw]"
 								src="https://player.vimeo.com/video/580209521?h=c1f2760aad"
 								height="450"
 							></iframe>
@@ -36,7 +36,7 @@ function PastEvents() {
 						<div className="">
 							<iframe
 								title="video"
-								className="w-[80vw] h-[33vh]  md:w-[22vw] md:h-[13vw]"
+								className="w-[80vw] h-[33vh] md:w-[79vw] md:h-[44vw] lg:w-[37vw] lg:h-[28vw] 2xl:w-[20vw] 2xl:h-[14vw]"
 								src="https://player.vimeo.com/video/580209521?h=c1f2760aad"
 								height="450"
 							></iframe>
@@ -48,7 +48,7 @@ function PastEvents() {
 						<div className="">
 							<iframe
 								title="video"
-								className="w-[80vw] h-[33vh]  md:w-[22vw] md:h-[13vw] "
+								className="w-[80vw] h-[33vh]  md:w-[79vw] md:h-[44vw] lg:w-[37vw] lg:h-[28vw] 2xl:w-[20vw] 2xl:h-[14vw]"
 								src="https://player.vimeo.com/video/580209521?h=c1f2760aad"
 								height="450"
 							></iframe>

@@ -8,7 +8,7 @@ function WomenTechpatronage() {
 					<div className="mb-[30px]">
 						<iframe
 							title="video"
-							className="w-[80vw] h-[47vh] md:h-[57vh] lg:h-[37vh] lg:w-[40vw] 2xl:w-[23vw] leading-[4rem]"
+							className="w-[80vw] h-[47vh] md:h-[66vh] lg:h-[37vh] lg:w-[40vw] 2xl:w-[23vw] leading-[4rem]"
 							src="https://player.vimeo.com/video/588343509?h=b7e59c30e6"
 							height="450"
 						></iframe>

@@ -5,23 +5,23 @@ function WomenTechGlobal() {
 		<div>
 			<div className="pt-[50px] bg-[#ff3e1e]">
 				<div className="max-w-[1080px] w-[80%] m-auto">
-					<div className="md:flex flex-row gap-[4rem]">
-						<div className="py-[30px]">
-							<h2 className=" text-4xl font-extrabold text-white">
+					<div className="lg:flex flex-row gap-[4rem]">
+						<div className="lg:py-[30px]">
+							<h2 className=" lg:text-4xl text-[30px] lg:leading-none leading-9 font-extrabold text-white mb-[3rem]">
 								Women in Tech Global Summit,<br></br>Paris 30 & 31st May, 2022
 							</h2>
 							<div className="pt-[8px]">
 								<div className="w-full lg:flex lg:flex-row">
 									<iframe
 										title="video"
-										className="w-[80vw] h-[26vh] md:w-[40vw] md:h-[30vw] 2xl:w-[25vw] 2xl:h-[15vw]"
+										className="w-[80vw] h-[26vh] lg:w-[40vw] lg:h-[30vw] 2xl:w-[25vw] 2xl:h-[15vw] md:w-[81vw] md:h-[46vw]"
 										src="https://player.vimeo.com/video/531777520?h=8d296c743f&dnt=1&app_id=122963"
 										height="450"
 									></iframe>
 								</div>
 							</div>
 						</div>
-						<div className="text-white pt-5 text-[17px] text-justify leading-8">
+						<div className="text-white pt-5 text-[17px] text-justify leading-8 md:leading-6">
 							<p>
 								<strong>
 									Women in Tech® Global Summit: HERoes Shaping Tomorrow

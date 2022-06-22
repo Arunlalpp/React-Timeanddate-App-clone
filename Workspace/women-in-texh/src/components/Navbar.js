@@ -14,12 +14,12 @@ function Navbar() {
 	return (
 		<div className="w-full lg:fixed t-0 l-0 z-[99999]">
 			<TopNavbar />
-			<div className="lg:top-[35px]  bg-[#15009b] leading-6 font-medium w-full  ">
-				<div className="2xl:w-[95%] w-[80%] md:w-[95%] 2xl:max-w-full md:pt-[30px] md:pb-[17px] text-left z-[99] m-auto ">
+			<div className="lg:top-[35px]  bg-[#15009b] leading-6 font-medium w-full">
+				<div className="2xl:w-[95%] w-[80%] lg:w-[95%] 2xl:max-w-full md:pt-[30px] md:pb-[17px] text-left z-[99] m-auto ">
 					<div className="lg:pt-5  w-full bg-transparent flex flex-row items-center md:items-end justify-between">
 						<a href="/">
 							<img
-								className="2xl:w-[8vw] w-[21vw] md:w-[147.64px] md:h-[59.4px] md:mt-2"
+								className="2xl:w-[8vw] w-[107.36px] h-[43.19px] lg:w-[147.64px] lg:h-[59.4px] lg:mt-2"
 								src={logoWomenintech}
 								alt="Logo"
 							/>

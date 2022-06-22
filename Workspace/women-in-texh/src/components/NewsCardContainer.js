@@ -5,21 +5,21 @@ function NewsCardContainer() {
 	return (
 		<div>
 			<div className="py-[50px] bg-[#f6f6f6]  ">
-				<div className="p-[30px] w-[80%] m-auto max-w-[1080px]">
+				<div className="p-[25px] w-[80%] m-auto max-w-[1080px]">
 					<h2 className="text-3xl text-[#ff3e1e] text-center font-extrabold">
 						Latest News
 					</h2>
 				</div>
-				<div className="pt-[30px] w-[80%] m-auto max-w-[1080px] md:grid md:grid-cols-2 gap-8 lg:grid-cols-3">
+				<div className="pt-[3.5rem] w-[80%] m-auto max-w-[1080px] md:grid md:grid-cols-2 gap-8 lg:grid-cols-3">
 					{newsItems.map((newsItem) => {
 						return (
-							<div className="mb-[11.5%] w-full opacity-100 border-2 border-[#d8d8d8] bg-white p-[19px] ">
+							<div className="mb-[11.5%] w-full opacity-100 border-2 border-[#d8d8d8] bg-white p-[18px] ">
 								<div className="mx-[-20px] mt-[-20px] mb-[29px] ">
 									<a href="/">
 										<img src={newsItem.image} alt="" />
 									</a>
 								</div>
-								<h2 className="text-2xl text-[#000005] font-extrabold ">
+								<h2 className="text-2xl text-[#000005] font-extrabold">
 									{newsItem.title}
 								</h2>
 								<p className="text-[#666] mb-[6px] font-light ">
