@@ -10,11 +10,13 @@ import NewsCardContainer from "./components/NewsCardContainer";
 import PastEvents from "./components/PastEvents";
 import CompanyLogos from "./components/CompanyLogos";
 import Footer from "./components/Footer";
+import SliderShow from "./components/SliderShow";
 
 function App() {
 	return (
-		<div>
+		<div className="relative">
 			<Navbar />
+			<SliderShow />
 			<MissionEmpover />
 			<FocuseArea />
 			<CardContainer />

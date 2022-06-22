@@ -4,7 +4,6 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import logoWomenintech from "../images/logoWomenintech.png";
 import MobileDroplist from "./MobileDroplist";
 import NavLink from "./NavLink";
-import SliderShow from "./SliderShow";
 import TopNavbar from "./TopNavbar";
 
 function Navbar() {
@@ -13,9 +12,9 @@ function Navbar() {
 		setState(true);
 	};
 	return (
-		<div>
+		<div className="w-full lg:fixed t-0 l-0 z-[99999]">
 			<TopNavbar />
-			<div className="lg:top-[35px]  bg-[#15009b] leading-6 font-medium w-full z-[99999] ">
+			<div className="lg:top-[35px]  bg-[#15009b] leading-6 font-medium w-full  ">
 				<div className="2xl:w-[95%] w-[80%] md:w-[95%] 2xl:max-w-full md:pt-[30px] md:pb-[17px] text-left z-[99] m-auto ">
 					<div className="lg:pt-5  w-full bg-transparent flex flex-row items-center md:items-end justify-between">
 						<a href="/">
@@ -44,8 +43,8 @@ function Navbar() {
 					</div>
 				</div>
 			</div>
+
 			{state === true ? <MobileDroplist /> : null}
-			{/* <SliderShow /> */}
 		</div>
 	);
 }
