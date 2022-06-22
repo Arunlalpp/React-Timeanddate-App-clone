@@ -222,5 +222,59 @@ const newsItems = [
 			"Our Founder and CEO of Women in Tech®, Ayumi Moore Aoki lead the WOMEN IN TECH - Global Movement Round Table at the US Ambassador to France, H.E. Denise Bauer's Residency in Paris. She lead a delegation that was made up of; Jameka Pankey, Tolulope Oke, Natascia...",
 	},
 ];
+const companyLogos = [
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2022/05/consensys.jpg",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2022/05/aws-womenintech.png",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2021/10/allianz.png",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2021/11/alm-works-womenintech.jpg",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2021/10/YONDR.png",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2022/05/ntt-data.png",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2020/03/sharjah-womenintech-summit.jpg",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2021/10/APPLOVIN.png",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2020/03/rangle-womenintech-summit.png",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2020/03/chaire-eti.png",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2022/01/circular-economy-alliance-womenintech.jpg",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2022/01/ecole-des-ponts-business-scholl-womenintech.png",
+	},
+	{
+		Logo: "https://womenintech-summit.com/wp-content/uploads/2022/04/mkt4edu.jpg",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2022/01/CROSSRAODAS-WOMENINTECH.png",
+	},
+	{
+		Logo: "https://women-in-tech.org/wp-content/uploads/2021/08/ministere-france.png",
+	},
+];
 
-export { dropdownContents, navLinks, focuseDatas, womenCards, newsItems };
+export {
+	dropdownContents,
+	navLinks,
+	focuseDatas,
+	womenCards,
+	newsItems,
+	companyLogos,
+};
