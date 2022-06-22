@@ -15,7 +15,7 @@ function Navbar() {
 	return (
 		<div>
 			<TopNavbar />
-			<div className="lg:top-[35px]  bg-[#15009b] leading-6 font-medium w-full z-[99999]">
+			<div className="lg:top-[35px]  bg-[#15009b] leading-6 font-medium w-full z-[99999] ">
 				<div className="2xl:w-[95%] w-[80%] md:w-[95%] 2xl:max-w-full md:pt-[30px] md:pb-[17px] text-left z-[99] m-auto ">
 					<div className="lg:pt-5  w-full bg-transparent flex flex-row items-center md:items-end justify-between">
 						<a href="/">
