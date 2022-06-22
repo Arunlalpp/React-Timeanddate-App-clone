@@ -37,7 +37,7 @@ function Navbar() {
 								/>
 							)}
 						</div>
-						<div className="float-right md:block hidden">
+						<div className="float-right lg:block hidden">
 							<NavLink />
 						</div>
 					</div>

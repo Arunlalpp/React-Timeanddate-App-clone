@@ -5,7 +5,7 @@ import ButtonBoard from "./ButtonBoard";
 function NavLink() {
 	return (
 		<div>
-			<div className="">
+			<div className="lg:block hidden">
 				<ul className="flex flex-row">
 					{navLinks?.map((navLink) => {
 						return (
