@@ -12,15 +12,15 @@ function SliderShow() {
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2000,
-		cssEase: "linear",
 	};
 	return (
-		<div>
+		<div className="w-full overflow-hidden">
 			<Slider {...settings}>
 				<div>
 					<h3>
 						<img
-							src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+							className="w-[100%]"
+							src="https://women-in-tech.org/wp-content/uploads/2021/06/computer-lab-SA-6.jpeg"
 							alt=""
 						/>
 					</h3>
@@ -28,7 +28,8 @@ function SliderShow() {
 				<div>
 					<h3>
 						<img
-							src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+							className="w-[100%]"
+							src="https://women-in-tech.org/wp-content/uploads/2021/05/Womenintech-global-24hworldtour-2021.jpg"
 							alt=""
 						/>
 					</h3>
@@ -36,7 +37,8 @@ function SliderShow() {
 				<div>
 					<h3>
 						<img
-							src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+							className="w-[100%]"
+							src="https://women-in-tech.org/wp-content/uploads/2021/08/womenintech-uae.jpg"
 							alt=""
 						/>
 					</h3>
@@ -44,23 +46,8 @@ function SliderShow() {
 				<div>
 					<h3>
 						<img
-							src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-							alt=""
-						/>
-					</h3>
-				</div>
-				<div>
-					<h3>
-						<img
-							src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-							alt=""
-						/>
-					</h3>
-				</div>
-				<div>
-					<h3>
-						<img
-							src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+							className="w-[100%]"
+							src="https://women-in-tech.org/wp-content/uploads/2021/08/womenintech-global-movement-un-women.jpg"
 							alt=""
 						/>
 					</h3>
