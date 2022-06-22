@@ -9,6 +9,7 @@ import WomenTechpatronage from "./components/WomenTechpatronage";
 import NewsCardContainer from "./components/NewsCardContainer";
 import PastEvents from "./components/PastEvents";
 import CompanyLogos from "./components/CompanyLogos";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -23,6 +24,7 @@ function App() {
 			<NewsCardContainer />
 			<PastEvents />
 			<CompanyLogos />
+			<Footer />
 		</div>
 	);
 }

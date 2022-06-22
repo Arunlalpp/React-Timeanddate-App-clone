@@ -270,6 +270,71 @@ const companyLogos = [
 	},
 ];
 
+const footerLinks = [
+	{
+		title: "About us",
+		contents: [
+			{
+				text: "who are we?",
+				link: "",
+			},
+			{
+				text: "context",
+				link: "",
+			},
+			{
+				text: "focus area",
+				link: "",
+			},
+			{
+				text: "A global movement",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "Get involved",
+		contents: [
+			{
+				text: "contact us",
+				link: "",
+			},
+			{
+				text: "Join us on slack",
+				link: "",
+			},
+			{
+				text: "Become a Member",
+				link: "",
+			},
+			{
+				text: "Become a Sponcer?",
+				link: "",
+			},
+			{
+				text: "Donate",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "What we do",
+		contents: [
+			{
+				text: "global mentoring Program",
+				link: "",
+			},
+			{
+				text: "Talent Hub",
+				link: "",
+			},
+			{
+				text: "Advocacy and Support",
+				link: "",
+			},
+		],
+	},
+];
 export {
 	dropdownContents,
 	navLinks,
@@ -277,4 +342,5 @@ export {
 	womenCards,
 	newsItems,
 	companyLogos,
+	footerLinks,
 };
