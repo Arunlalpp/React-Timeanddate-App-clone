@@ -3,6 +3,7 @@ import CardContainer from "./components/CardContainer";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navlink from "./components/Navlink";
+import RightCards from "./components/RightCards";
 import RightContainer from "./components/RightContainer";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 			<RightContainer />
 			{/* <CardContainer /> */}
 			{/* <Footer /> */}
+			<RightCards />
 		</div>
 	);
 }

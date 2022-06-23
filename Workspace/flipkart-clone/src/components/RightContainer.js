@@ -1,11 +1,12 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import RightCards from "./RightCards";
 
 function RightContainer() {
 	return (
 		<div>
-			<div className="bg-[#eff1f4]">
-				<div className="max-w-[50%] m-auto border-b-[1px] border-[#f0f0f0] bg-white py-[16px] px-[12px]">
+			<div className="bg-[#eff1f4] pt-2">
+				<div className="max-w-[70%] m-auto border-b-[1px] border-[#f0f0f0] bg-white py-[16px] px-[12px]">
 					<div className="">
 						<span className="flex flex-row items-center text-[14px] text-[#878787] pb-3">
 							Home
@@ -41,6 +42,7 @@ function RightContainer() {
 						<span>Newest First</span>
 					</div>
 				</div>
+				{/* <RightCards /> */}
 			</div>
 		</div>
 	);
