@@ -4,7 +4,7 @@ import { dropdownContents } from "../Constants";
 function MobileDroplist() {
 	return (
 		<div>
-			<div className="bg-[#15009b] border-[#01efcc] border-t-2 w-[66vw] h-[max-content] transition ease-out duration-150 absolute left-[16%]">
+			<div className="bg-[#15009b] border-[#01efcc] border-t-2 w-[66vw] h-[max-content] transition ease-out duration-150 absolute left-[16%] z-10">
 				<ul className="p-[5%]">
 					{dropdownContents?.map((dropdownContent) => {
 						return (
