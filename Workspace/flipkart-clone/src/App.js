@@ -3,6 +3,7 @@ import CardContainer from "./components/CardContainer";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navlink from "./components/Navlink";
+import Pagination from "./components/Pagination";
 import RightCards from "./components/RightCards";
 import RightContainer from "./components/RightContainer";
 
@@ -12,9 +13,10 @@ function App() {
 			<Header />
 			<Navlink />
 			<RightContainer />
-			{/* <CardContainer /> */}
-			{/* <Footer /> */}
 			<RightCards />
+			<Pagination />
+			<CardContainer />
+			<Footer />
 		</div>
 	);
 }

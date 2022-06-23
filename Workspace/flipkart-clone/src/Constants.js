@@ -395,5 +395,29 @@ const productDatas = [
 		price: "₹215",
 		offer: "10% off",
 	},
+	{
+		url: "https://rukminim1.flixcart.com/image/612/612/l1zc6fk0/pillow/0/z/q/12-7-president-size-1-sc-p-mfpilw-sleepycat-original-imagdezwys69zrtq.jpeg?q=70",
+		title: "SleepyCat Bamboo Fabric Standard Size (25x16 inches) Me...",
+		text: "White and Grey",
+		rating: "4.1",
+		price: "₹215",
+		offer: "10% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/612/612/l1zc6fk0/pillow/0/z/q/12-7-president-size-1-sc-p-mfpilw-sleepycat-original-imagdezwys69zrtq.jpeg?q=70",
+		title: "SleepyCat Bamboo Fabric Standard Size (25x16 inches) Me...",
+		text: "White and Grey",
+		rating: "4.1",
+		price: "₹215",
+		offer: "10% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/612/612/l1zc6fk0/pillow/0/z/q/12-7-president-size-1-sc-p-mfpilw-sleepycat-original-imagdezwys69zrtq.jpeg?q=70",
+		title: "SleepyCat Bamboo Fabric Standard Size (25x16 inches) Me...",
+		text: "White and Grey",
+		rating: "4.1",
+		price: "₹215",
+		offer: "10% off",
+	},
 ];
 export { navLinks, cardContainers, footerLinks, productDatas };
