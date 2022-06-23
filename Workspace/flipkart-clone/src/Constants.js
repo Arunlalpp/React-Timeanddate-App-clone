@@ -102,4 +102,128 @@ const cardContainers = [
 		days: "3days ago",
 	},
 ];
-export { navLinks, cardContainers };
+const footerLinks = [
+	{
+		title: "About",
+		contents: [
+			{
+				text: "Contact Us",
+				link: "",
+			},
+			{
+				text: "About Us",
+				link: "",
+			},
+			{
+				text: "Careers",
+				link: "",
+			},
+			{
+				text: "Flipkart Stories",
+				link: "",
+			},
+			{
+				text: "Press",
+				link: "",
+			},
+			{
+				text: "Flipkart Wholesale",
+				link: "",
+			},
+			{
+				text: "Corporate Information",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "HELP",
+		contents: [
+			{
+				text: "Payments",
+				link: "",
+			},
+			{
+				text: "Shipping",
+				link: "",
+			},
+			{
+				text: "Cancellation & Returns",
+				link: "",
+			},
+			{
+				text: "FAQ",
+				link: "",
+			},
+			{
+				text: "Report Infringement",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "POLICY",
+		contents: [
+			{
+				text: "Return Policy",
+				link: "",
+			},
+			{
+				text: "Terms Of Use",
+				link: "",
+			},
+			{
+				text: "Security",
+				link: "",
+			},
+			{
+				text: "Privacy",
+				link: "",
+			},
+			{
+				text: "Sitemap",
+				link: "",
+			},
+			{
+				text: "EPR Compliance",
+				link: "",
+			},
+		],
+	},
+	{
+		title: "SOCIAL",
+		contents: [
+			{
+				text: "Facebook",
+				link: "",
+			},
+			{
+				text: "Twitter",
+				link: "",
+			},
+			{
+				text: "YouTube",
+				link: "",
+			},
+		],
+	},
+	{
+		text: "Mail Us",
+		footerRight: [
+			{
+				text: "Flipkart Internet Private Limited,Buildings Alyssa, Begonia &Clove Embassy Tech Village,Outer Ring Road, Devarabeesanahalli Village,Bengaluru, 560103,Karnataka, India",
+
+				link: "",
+			},
+			{
+				text: "Twitter",
+				link: "",
+			},
+			{
+				text: "YouTube",
+				link: "",
+			},
+		],
+	},
+];
+export { navLinks, cardContainers, footerLinks };
