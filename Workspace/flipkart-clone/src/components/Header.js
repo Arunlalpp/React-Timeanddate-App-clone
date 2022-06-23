@@ -8,7 +8,7 @@ function Header() {
 		<div>
 			<div className="bg-[#2874f0] w-full p-3">
 				<Space />
-				<div className="max-w-[1248px] m-auto w-[76%] flex flex-row items-center">
+				<div className="max-w-[1248px] m-auto  flex flex-row items-center">
 					<div className="">
 						<img
 							className="w-[80px]"
@@ -30,8 +30,8 @@ function Header() {
 						<div class="input-group relative  w-full flex flex-row">
 							<input
 								type="search"
-								class="form-control relative  min-w-0 block w-full ml-3 px-3 py-2 text-base font-normal text-gray-700 bg-white bg-clip-padding   transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-								placeholder="search for products, brands and more"
+								class="form-control relative  min-w-0 block w-full ml-3 px-4 py-2 text-base font-normal text-black bg-white bg-clip-padding   transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+								placeholder="Search for products, brands and more"
 								aria-label="Search"
 								aria-describedby="button-addon2"
 							/>
