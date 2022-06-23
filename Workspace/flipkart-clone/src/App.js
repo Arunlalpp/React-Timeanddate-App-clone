@@ -1,9 +1,12 @@
 import "./App.css";
+import Header from "./components/Header";
+import Navlink from "./components/Navlink";
 
 function App() {
 	return (
 		<div>
-			<h1 className="text-red-600">Welcome</h1>
+			<Header />
+			<Navlink />
 		</div>
 	);
 }
