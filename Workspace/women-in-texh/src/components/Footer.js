@@ -18,7 +18,7 @@ function Footer() {
 								{footerLink?.contents?.map((content) => {
 									return (
 										<div
-											className="text-white text-[17px] p-[1px]"
+											className="text-white text-[17px] p-[1px] whitespace-nowrap"
 											key={content.text}
 										>
 											<button className="border-none  font-extralight">
