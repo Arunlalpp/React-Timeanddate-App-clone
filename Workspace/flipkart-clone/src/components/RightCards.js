@@ -6,7 +6,7 @@ import { productDatas } from "../Constants";
 function RightCards() {
 	return (
 		<div className="bg-[#eff1f4]">
-			<div className="max-w-[70%] m-auto pt-2">
+			<div className="max-w-[70%] m-auto pt-2 bg-white">
 				<div className="grid grid-cols-4 gap-2">
 					{productDatas?.map((productData) => {
 						return (

@@ -1,6 +1,5 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import RightCards from "./RightCards";
 
 function RightContainer() {
 	return (
@@ -42,7 +41,6 @@ function RightContainer() {
 						<span>Newest First</span>
 					</div>
 				</div>
-				{/* <RightCards /> */}
 			</div>
 		</div>
 	);
