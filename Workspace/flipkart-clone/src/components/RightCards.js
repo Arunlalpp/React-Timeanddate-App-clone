@@ -1,13 +1,13 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
-import { BsHeart } from "react-icons/bs";
+import { AiFillHeart } from "react-icons/ai";
 import { productDatas } from "../Constants";
 
 function RightCards() {
 	return (
 		<div className="bg-[#eff1f4]">
-			<div className="max-w-[70%] m-auto pt-2 bg-white">
-				<div className="grid grid-cols-4 gap-2">
+			<div className=" pt-2 bg-white pb-9">
+				<div className="grid grid-cols-4 gap-2 border-b-[1px] border-[#e0e0e0] ">
 					{productDatas?.map((productData) => {
 						return (
 							<div className="bg-white max-w-[410px] hover:shadow-lg">
@@ -19,7 +19,7 @@ function RightCards() {
 									/>
 
 									<div className="absolute left-[90%] top-[10%]">
-										<BsHeart />
+										<AiFillHeart className="text-[#878787]" />
 									</div>
 								</div>
 								<div className="p-3">
@@ -54,6 +54,22 @@ function RightCards() {
 						);
 					})}
 				</div>
+				<span>Page 1 of 2,409</span>
+				<ul className="flex flex-row gap-3 justify-center">
+					<li className="bg-[#2874f0] rounded-full w-[40px] h-[40px] grid place-content-center">
+						1
+					</li>
+					<li className="mt-2">2</li>
+					<li className="mt-2">3</li>
+					<li className="mt-2">4</li>
+					<li className="mt-2">5</li>
+					<li className="mt-2">6</li>
+					<li className="mt-2">7</li>
+					<li className="mt-2">8</li>
+					<li className="mt-2">9</li>
+					<li className="mt-2">10</li>
+					<span className="text-[#2874f0] ml-5 font-medium mt-2">NEXT</span>
+				</ul>
 			</div>
 		</div>
 	);

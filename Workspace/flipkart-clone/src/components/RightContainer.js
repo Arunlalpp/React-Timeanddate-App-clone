@@ -1,11 +1,13 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
+import Pagination from "./Pagination";
+import RightCards from "./RightCards";
 
 function RightContainer() {
 	return (
 		<div>
-			<div className="bg-[#eff1f4] pt-2">
-				<div className="max-w-[70%] m-auto border-b-[1px] border-[#f0f0f0] bg-white py-[16px] px-[12px]">
+			<div className="bg-[#eff1f4]">
+				<div className=" m-auto border-b-[1px] border-[#f0f0f0] bg-white py-[16px] px-[12px]">
 					<div className="">
 						<span className="flex flex-row items-center text-[14px] text-[#878787] pb-3">
 							Home
@@ -35,12 +37,16 @@ function RightContainer() {
 					</div>
 					<div className="flex flex-row items-center gap-4 text-[16px] text-[#212121]">
 						<span className="font-medium">Sort By</span>
-						<span>Popularity</span>
+						<span className="text-[#2874f0] font-medium underline">
+							Popularity
+						</span>
 						<span>Price-Low to High</span>
 						<span>Price-High to Low</span>
 						<span>Newest First</span>
 					</div>
+					<RightCards />
 				</div>
+				<Pagination />
 			</div>
 		</div>
 	);

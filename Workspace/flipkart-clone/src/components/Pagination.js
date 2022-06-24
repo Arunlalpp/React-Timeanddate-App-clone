@@ -4,7 +4,7 @@ function Pagination() {
 	return (
 		<div>
 			<div className="bg-[#eff1f4] py-3">
-				<div className="max-w-[70%] m-auto bg-white p-[16px]">
+				<div className="bg-white p-[16px]">
 					<div className="flex flex-row items-center gap-5">
 						<span className="text-[#000] text-[16px] font-medium">
 							Did you find what you were looking for?
