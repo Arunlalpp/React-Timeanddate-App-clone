@@ -484,6 +484,48 @@ const homeDatas = [
 		price: "Rs.249",
 	},
 ];
+const mobileCards = [
+	{
+		url: "https://rukminim1.flixcart.com/image/300/300/kxm5qq80/curtain/f/5/a/2-piece-window-door-curtains-5-feet-blue-ke-0102wd-blue-window-original-imagafypt4qs7cex.jpeg?q=90",
+		title: "KIRITIKA",
+		subText: "KIRTIKA ENTERPRISES 274.32..",
+		price: "999",
+		rupee: "₹399",
+		offer: "60% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/300/300/kxm5qq80/curtain/f/5/a/2-piece-window-door-curtains-5-feet-blue-ke-0102wd-blue-window-original-imagafypt4qs7cex.jpeg?q=90",
+		title: "KIRITIKA",
+		subText: "KIRTIKA ENTERPRISES 274.32..",
+		price: "999",
+		rupee: "₹399",
+		offer: "60% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/300/300/kxm5qq80/curtain/f/5/a/2-piece-window-door-curtains-5-feet-blue-ke-0102wd-blue-window-original-imagafypt4qs7cex.jpeg?q=90",
+		title: "KIRITIKA",
+		subText: "KIRTIKA ENTERPRISES 274.32..",
+		price: "999",
+		rupee: "₹399",
+		offer: "60% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/300/300/kxm5qq80/curtain/f/5/a/2-piece-window-door-curtains-5-feet-blue-ke-0102wd-blue-window-original-imagafypt4qs7cex.jpeg?q=90",
+		title: "KIRITIKA",
+		subText: "KIRTIKA ENTERPRISES 274.32..",
+		price: "999",
+		rupee: "₹399",
+		offer: "60% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/300/300/kxm5qq80/curtain/f/5/a/2-piece-window-door-curtains-5-feet-blue-ke-0102wd-blue-window-original-imagafypt4qs7cex.jpeg?q=90",
+		title: "KIRITIKA",
+		subText: "KIRTIKA ENTERPRISES 274.32..",
+		price: "999",
+		rupee: "₹399",
+		offer: "60% off",
+	},
+];
 export {
 	navLinks,
 	cardContainers,
@@ -491,4 +533,5 @@ export {
 	productDatas,
 	leftDatas,
 	homeDatas,
+	mobileCards,
 };
