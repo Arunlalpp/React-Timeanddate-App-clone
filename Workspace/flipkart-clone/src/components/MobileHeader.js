@@ -3,8 +3,8 @@ import MobileNavlink from "./MobileNavlink";
 
 function MobileHeader() {
 	return (
-		<div>
-			<div className="bg-[#2874f0]">
+		<div className="lg:hidden block">
+			<div className="bg-[#2874f0] ">
 				<div className="max-w-[95%] m-auto flex flex-row justify-between py-[14px]">
 					<div className="flex flex-row items-center gap-3">
 						<div>

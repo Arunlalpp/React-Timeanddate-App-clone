@@ -5,11 +5,11 @@ import { productDatas } from "../Constants";
 
 function MobileCard() {
 	return (
-		<div>
+		<div className="lg:hidden block">
 			<div className="grid grid-cols-2 gap-1 border-b-[1px] border-[#e0e0e0] pb-8">
 				{productDatas?.map((productData) => {
 					return (
-						<div className="bg-white max-w-[212.5px] group hover:shadow-lg">
+						<div className="bg-white max-w-[212.5px]">
 							<div className="relative">
 								<img
 									className="w-[212.5px] h-[212.5px] p-1"

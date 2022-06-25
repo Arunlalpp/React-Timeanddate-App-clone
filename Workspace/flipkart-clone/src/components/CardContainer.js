@@ -4,7 +4,7 @@ import { cardContainers } from "../Constants";
 
 function CardContainer() {
 	return (
-		<div>
+		<div className="lg:block hidden">
 			<div className="bg-[#eff1f4] py-3">
 				<div className="max-w-[80%] m-auto bg-white">
 					<h2 className="text-[20px] px-[15px] py-[20px] text-[#000] font-medium border-b-[1px] border-[#f0f0f0]">
