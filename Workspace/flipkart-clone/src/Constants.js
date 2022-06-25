@@ -420,4 +420,75 @@ const productDatas = [
 		offer: "10% off",
 	},
 ];
-export { navLinks, cardContainers, footerLinks, productDatas };
+const leftDatas = [
+	{
+		text: "FLipkart SmartBuy",
+		show: "4350 MORE",
+	},
+	{
+		text: "FLipkart SmartBuy",
+		show: "4350 MORE",
+	},
+	{
+		text: "FLipkart SmartBuy",
+		show: "4350 MORE",
+	},
+	{
+		text: "FLipkart SmartBuy",
+		show: "4350 MORE",
+	},
+	{
+		text: "FLipkart SmartBuy",
+		show: "4350 MORE",
+	},
+	{
+		text: "FLipkart SmartBuy",
+		show: "4350 MORE",
+	},
+];
+const homeDatas = [
+	{
+		text: "1.Aashna 250 TC Polycotton Queen Printed Bedsheet",
+		price: "Rs.249",
+	},
+	{
+		text: "2.CHHAVI INDIA 104 TC Microfiber Double 3D Printed Bedsheet",
+		price: "Rs.268",
+	},
+	{
+		text: "3.HOME LIVING Refrigerator Cover",
+		price: "Rs.249",
+	},
+	{
+		text: "4.DAYGLOW Polyester Adults Washable Mosquito Net for Queen Size Bed | Polyester, Foldable, High Durability, Lightweight with Free Saviours | Mosquito Net for Kids | Size: 6 x 6.5 Mosquito Net",
+		price: "Rs.249",
+	},
+	{
+		text: "5.Aashna 250 TC Polycotton Queen Printed Bedsheet",
+		price: "Rs.249",
+	},
+	{
+		text: "6.Classic Mosquito Net Polyester Adults Washable Foldable, king Size bed & Double Bed Mosquito Net",
+		price: "Rs.249",
+	},
+	{
+		text: "7.Aashna 250 TC Polycotton Queen Printed Bedsheet",
+		price: "Rs.249",
+	},
+	{
+		text: "8.Aashna 250 TC Polycotton Queen Printed Bedsheet",
+		price: "Rs.249",
+	},
+	{
+		text: "9.Aashna 250 TC Polycotton Queen Printed Bedsheet",
+		price: "Rs.249",
+	},
+];
+export {
+	navLinks,
+	cardContainers,
+	footerLinks,
+	productDatas,
+	leftDatas,
+	homeDatas,
+};
