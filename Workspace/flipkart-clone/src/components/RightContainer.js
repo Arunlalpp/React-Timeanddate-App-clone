@@ -37,7 +37,7 @@ function RightContainer() {
 					</div>
 					<div className="flex flex-row items-center gap-4 text-[16px] text-[#212121]">
 						<span className="font-medium">Sort By</span>
-						<span className="text-[#2874f0] font-medium underline">
+						<span className="text-[#2874f0] font-medium border-b-2 border-[#2874f0]">
 							Popularity
 						</span>
 						<span>Price-Low to High</span>
