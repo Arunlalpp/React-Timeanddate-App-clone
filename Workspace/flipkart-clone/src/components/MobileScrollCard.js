@@ -21,13 +21,13 @@ function MobileScrollCard() {
 							</div>
 						</div>
 					</div>
-					<div className="p-[16px] bg-[#ffeed2] flex flex-row gap-1">
+					<div className="p-[16px] bg-[#ffeed2] flex flex-row gap-1 overflow-auto overflow-y-hidden  scrollbar-hide scroll-smooth">
 						{mobileCards?.map((mobileCard) => {
 							return (
-								<div className="bg-white max-w-[142px] rounded-md">
+								<div className="bg-white max-w-[142px] rounded-md min-w-[40vw]">
 									<div className=" p-1">
 										<img
-											className="w-[142px] h-[132px]"
+											className="w-[162px] h-[132px]"
 											src={mobileCard.url}
 											alt=""
 										/>
@@ -42,7 +42,7 @@ function MobileScrollCard() {
 										<span className="text-[11px] line-through">
 											{mobileCard.price}
 										</span>
-										<span className="ml-1">{mobileCard.rupee}</span>
+										<span className="ml-1 text-[12px]">{mobileCard.rupee}</span>
 										<h1 className="text-[#a7dbaa] text-[11px]">
 											{mobileCard.offer}
 										</h1>
