@@ -9,9 +9,11 @@ function LeftContainer() {
 			<div className="bg-[#eff1f4] pt-2 ">
 				<div className=" m-auto flex flex-row max-w-[78%] gap-3">
 					<div className="">
-						<div className="w-[270px] m-auto bg-white">
+						<div className="w-[280px] m-auto bg-white">
 							<div className=" border-b-[1px] border-[#f0f0f0] pb-[12px]">
-								<h1 className="p-[16px]">Filters</h1>
+								<h1 className="p-[16px] text-[#000] text-[20px] font-medium">
+									Filters
+								</h1>
 							</div>
 							<div className="border-b-[1px] border-[#f0f0f0]">
 								<span className="uppercase p-[16px]">Categories</span>
@@ -50,6 +52,9 @@ function LeftContainer() {
 										?
 									</span>
 								</div>
+							</div>
+							<div className="">
+								<DisclosureChecked />
 							</div>
 							<div className="">
 								<DisclosureChecked />
