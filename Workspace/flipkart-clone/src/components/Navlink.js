@@ -4,7 +4,7 @@ import { navLinks } from "../Constants";
 
 function Navlink() {
 	return (
-		<div className="bg-[#fff] w-full shadow-md">
+		<div className="bg-[#fff] w-full shadow-md lg:block hidden">
 			<div className=" 2xl:w-[55%] lg:w-[80%] m-auto  py-3">
 				<ul className="flex flex-row justify-between">
 					{navLinks?.map((navLink) => {

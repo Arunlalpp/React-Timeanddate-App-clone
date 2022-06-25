@@ -3,7 +3,7 @@ import { footerLinks } from "../Constants";
 
 function Footer() {
 	return (
-		<div className="bg-[#172337]">
+		<div className="bg-[#172337] lg:block hidden">
 			<div className="border-b-[1px] border-[#454d5e]">
 				<div className="max-w-[90%] m-auto flex flex-row gap-6 justify-between ">
 					<div className="py-8 flex flex-row justify-between w-[50vw]">

@@ -3,7 +3,7 @@ import HomeTable from "./HomeTable";
 
 function TableConatiner() {
 	return (
-		<div>
+		<div className="lg:block hidden">
 			<div className="bg-white py-10">
 				<div className="max-w-[98%] m-auto flex flex-row gap-[3rem]">
 					<div className="2xl:w-[80vw]">

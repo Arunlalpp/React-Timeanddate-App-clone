@@ -5,8 +5,8 @@ import Space from "./Space";
 
 function Header() {
 	return (
-		<div>
-			<div className="bg-[#2874f0] w-full p-3">
+		<div className="lg:block hidden">
+			<div className="bg-[#2874f0] w-full p-3 md:block hidden">
 				<Space />
 				<div className="max-w-[1248px] m-auto  flex flex-row items-center">
 					<div className="">

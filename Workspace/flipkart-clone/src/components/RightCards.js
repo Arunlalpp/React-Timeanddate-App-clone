@@ -7,10 +7,10 @@ function RightCards() {
 	return (
 		<div className="bg-[#eff1f4]">
 			<div className=" pt-2 bg-white">
-				<div className="grid grid-cols-4 gap-2 border-b-[1px] border-[#e0e0e0] pb-8">
+				<div className="grid grid-cols-4 gap-1 border-b-[1px] border-[#e0e0e0] pb-8">
 					{productDatas?.map((productData) => {
 						return (
-							<div className="bg-white max-w-[410px] group hover:shadow-lg">
+							<div className="bg-white max-w-[410px] group hover:shadow-2xl transition duration-700 ease-in-out">
 								<div className="relative">
 									<img
 										className="w-[400px] h-[400px] p-3"
@@ -50,10 +50,8 @@ function RightCards() {
 										<span>{productData.offer}</span>
 									</div>
 								</div>
-								<div className="absolute  bg-white w-[16vw]">
-									<span className="hidden group-hover:block px-3">
-										size:double
-									</span>
+								<div className="absolute hidden group-hover:block box-border z-10 shadow-lg bg-white w-[16vw]">
+									<span className=" px-3">size:double</span>
 								</div>
 							</div>
 						);

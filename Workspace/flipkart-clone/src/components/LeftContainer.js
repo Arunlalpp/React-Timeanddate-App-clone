@@ -1,11 +1,12 @@
 import React from "react";
 import DisclosureCard from "./DisclosureCard";
 import DisclosureChecked from "./DisclosureChecked";
+import ProgressBar from "./ProgressBar";
 import RightContainer from "./RightContainer";
 
 function LeftContainer() {
 	return (
-		<div>
+		<div className="lg:block hidden">
 			<div className="bg-[#eff1f4] pt-2 ">
 				<div className=" m-auto flex flex-row max-w-[78%] gap-3">
 					<div className="">
@@ -21,12 +22,7 @@ function LeftContainer() {
 									<DisclosureCard />
 								</div>
 							</div>
-							<div className="border-b-[1px] border-[#f0f0f0] pb-[12px]">
-								<span className="uppercase p-[16px]">Price</span>
-								<div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-									<div class="bg-blue-600 h-2.5 rounded-full w-[45%]"></div>
-								</div>
-							</div>
+							<ProgressBar />
 							<div className="border-b-[1px] border-[#f0f0f0] pb-[12px] flex flex-row justify-between ">
 								<div class="form-check flex flex-row items-center p-[16px]">
 									<input
