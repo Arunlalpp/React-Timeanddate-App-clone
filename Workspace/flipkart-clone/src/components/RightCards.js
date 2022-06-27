@@ -66,22 +66,24 @@ function RightCards() {
 						);
 					})}
 				</div>
-				<span>Page 1 of 2,409</span>
-				<ul className="flex flex-row gap-3 justify-center">
-					<li className="bg-[#2874f0] rounded-full w-[40px] h-[40px] grid place-content-center">
-						1
-					</li>
-					<li className="mt-2">2</li>
-					<li className="mt-2">3</li>
-					<li className="mt-2">4</li>
-					<li className="mt-2">5</li>
-					<li className="mt-2">6</li>
-					<li className="mt-2">7</li>
-					<li className="mt-2">8</li>
-					<li className="mt-2">9</li>
-					<li className="mt-2">10</li>
-					<span className="text-[#2874f0] ml-5 font-medium mt-2">NEXT</span>
-				</ul>
+				<div className="flex flex-row items-center gap-[25rem] py-[15px]">
+					<span>Page 1 of 2,124</span>
+					<ul className="flex flex-row gap-5 text-center">
+						<li className="bg-[#2874f0] rounded-full w-[35px] h-[35px] grid place-content-center">
+							1
+						</li>
+						<li className="mt-2">2</li>
+						<li className="mt-2">3</li>
+						<li className="mt-2">4</li>
+						<li className="mt-2">5</li>
+						<li className="mt-2">6</li>
+						<li className="mt-2">7</li>
+						<li className="mt-2">8</li>
+						<li className="mt-2">9</li>
+						<li className="mt-2">10</li>
+						<span className="text-[#2874f0] ml-5 font-medium mt-2">NEXT</span>
+					</ul>
+				</div>
 			</div>
 		</div>
 	);

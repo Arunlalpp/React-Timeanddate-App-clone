@@ -1,131 +1,34 @@
+import { HiChevronDown } from "react-icons/hi";
 const navLinks = [
 	{
 		text: "Electronics",
-		icon: (
-			<svg
-				width="4.7"
-				height="8"
-				viewBox="0 0 16 27"
-				xmlns="http://www.w3.org/2000/svg"
-				class="RWB9Wm"
-			>
-				<path
-					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
-					fill="#fff"
-					class="_2JzwqO"
-				></path>
-			</svg>
-		),
+		icon: <HiChevronDown />,
 	},
 	{
 		text: "TVs & Appliances",
-		icon: (
-			<svg
-				width="4.7"
-				height="8"
-				viewBox="0 0 16 27"
-				xmlns="http://www.w3.org/2000/svg"
-				class="RWB9Wm"
-			>
-				<path
-					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
-					fill="#fff"
-					class="_2JzwqO"
-				></path>
-			</svg>
-		),
+		icon: <HiChevronDown />,
 	},
 	{
 		text: "Men",
-		icon: (
-			<svg
-				width="4.7"
-				height="8"
-				viewBox="0 0 16 27"
-				xmlns="http://www.w3.org/2000/svg"
-				class="RWB9Wm"
-			>
-				<path
-					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
-					fill="#fff"
-					class="_2JzwqO"
-				></path>
-			</svg>
-		),
+		icon: <HiChevronDown />,
 	},
 	{
 		text: "Women",
-		icon: (
-			<svg
-				width="4.7"
-				height="8"
-				viewBox="0 0 16 27"
-				xmlns="http://www.w3.org/2000/svg"
-				class="RWB9Wm"
-			>
-				<path
-					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
-					fill="#fff"
-					class="_2JzwqO"
-				></path>
-			</svg>
-		),
+		icon: <HiChevronDown />,
 	},
 	{
 		text: "Baby & Kids",
-		icon: (
-			<svg
-				width="4.7"
-				height="8"
-				viewBox="0 0 16 27"
-				xmlns="http://www.w3.org/2000/svg"
-				class="RWB9Wm"
-			>
-				<path
-					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
-					fill="#fff"
-					class="_2JzwqO"
-				></path>
-			</svg>
-		),
+		icon: <HiChevronDown />,
 	},
 
 	{
 		text: "Home & Future",
-		icon: (
-			<svg
-				width="4.7"
-				height="8"
-				viewBox="0 0 16 27"
-				xmlns="http://www.w3.org/2000/svg"
-				class="RWB9Wm"
-			>
-				<path
-					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
-					fill="#fff"
-					class="_2JzwqO"
-				></path>
-			</svg>
-		),
+		icon: <HiChevronDown />,
 	},
 
 	{
 		text: "Sports,Books & More",
-		icon: (
-			<svg
-				width="4.7"
-				height="8"
-				viewBox="0 0 16 27"
-				xmlns="http://www.w3.org/2000/svg"
-				class="RWB9Wm"
-			>
-				<path
-					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
-					fill="#fff"
-					class="_2JzwqO"
-				></path>
-			</svg>
-		),
+		icon: <HiChevronDown />,
 	},
 
 	{

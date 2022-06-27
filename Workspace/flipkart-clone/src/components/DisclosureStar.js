@@ -39,7 +39,7 @@ function DisclosureChecked() {
 													value=""
 													id="flexCheckDefault"
 												/>
-												<li className="py-1 flex flex-row items-center">
+												<li className="py-1 flex flex-row items-center text-[14px] text-[#272727]">
 													<span>4</span>
 													<span>
 														<AiFillStar />
@@ -47,14 +47,14 @@ function DisclosureChecked() {
 													<span>& Above</span>
 												</li>
 											</div>
-											<div class="form-check flex items-center">
+											<div class="form-check flex items-center text-[14px] text-[#272727]">
 												<input
 													class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer checked:"
 													type="checkbox"
 													value=""
 													id="flexCheckDefault"
 												/>
-												<li className="py-1 flex flex-row items-center">
+												<li className="py-1 flex flex-row items-center text-[14px] text-[#272727]">
 													<span>3</span>
 													<span>
 														<AiFillStar />
@@ -69,7 +69,7 @@ function DisclosureChecked() {
 													value=""
 													id="flexCheckDefault"
 												/>
-												<li className="py-1 flex flex-row items-center">
+												<li className="py-1 flex flex-row items-center text-[14px] text-[#272727]">
 													<span>2</span>
 													<span>
 														<AiFillStar />
@@ -84,7 +84,7 @@ function DisclosureChecked() {
 													value=""
 													id="flexCheckDefault"
 												/>
-												<li className="py-1 flex flex-row items-center">
+												<li className="py-1 flex flex-row items-center text-[14px] text-[#272727]">
 													<span>1</span>
 													<span>
 														<AiFillStar />
@@ -95,7 +95,6 @@ function DisclosureChecked() {
 										</ul>
 									</>
 								</div>
-								<span className="text-[#2874f0]">4350 MORE</span>
 							</Disclosure.Panel>
 						</>
 					)}

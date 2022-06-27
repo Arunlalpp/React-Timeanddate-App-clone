@@ -6,7 +6,7 @@ function Navlink() {
 	return (
 		<div className="bg-[#fff] w-full lg:block shadow-sm hidden absolute top-[58px]">
 			<div
-				className=" w-[81%] m-auto  py-2 font-medium "
+				className=" w-[81%] max-w-[1248px] m-auto  py-2 font-[550] "
 				style={{
 					fontFamily:
 						"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif",

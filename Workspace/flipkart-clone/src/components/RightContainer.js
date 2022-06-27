@@ -9,15 +9,15 @@ function RightContainer() {
 			<div className="bg-[#eff1f4]">
 				<div className=" m-auto  bg-white py-[16px] px-[12px]">
 					<div className="">
-						<span className="flex flex-row items-center text-[12px] text-[#878787] pb-1 ">
+						<span className="flex flex-row items-center text-[13px] text-[#878787] pb-1 ">
 							Home
 							<span className="mx-1">
 								<MdKeyboardArrowRight />
 							</span>
-							<span className="text-[12px] text-[#878787]">Home Furnis..</span>
+							<span className="text-[13px] text-[#878787]">Home Furnis..</span>
 						</span>
 						<div className="py-1">
-							<p className="text-[12px] text-[#878787]">
+							<p className="text-[13px] text-[#878787]">
 								If you have decided to buy home furnishing online, you’ve landed
 								on the right page. From bed linen, curtains,
 								<span className="text-[#72a4f5]">carpets</span> and floor
@@ -44,7 +44,15 @@ function RightContainer() {
 						</div>
 					</div>
 					<div className="flex flex-row items-center gap-4 text-[14px] text-[#212121] border-b-[1px] border-[#f0f0f0] pb-2">
-						<span className="font-medium">Sort By</span>
+						<span
+							className="font-medium"
+							style={{
+								fontFamily: "Roboto,Arial,sans-serif",
+								fontWeight: "bold",
+							}}
+						>
+							Sort By
+						</span>
 						<span
 							className="text-[#2874f0] border-b-2 border-[#2874f0] "
 							style={{
