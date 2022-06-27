@@ -11,14 +11,24 @@ function Footer() {
 							return (
 								<div className=" text-black ">
 									<div className="mb-[20px]">
-										<span className="text-[14px] text-[#878787] font-medium">
+										<span
+											className="text-[14px] text-[#878787] font-medium "
+											style={{
+												fontFamily:
+													"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif",
+											}}
+										>
 											{footerLink.title}
 										</span>
 									</div>
 									{footerLink?.contents?.map((content) => {
 										return (
 											<div
-												className="text-[#fff] text-[14px] p-[1px] whitespace-nowrap leading-7"
+												className="text-[#fff] text-[14px] p-[1px] whitespace-nowrap leading-7 "
+												style={{
+													fontFamily:
+														"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif",
+												}}
 												key={content.text}
 											>
 												<button className="border-none ">{content.text}</button>
@@ -32,11 +42,23 @@ function Footer() {
 					</div>
 					<div className="pt-7 flex flex-row gap-8">
 						<div className="">
-							<span className="text-[14px] text-[#878787] font-medium">
+							<span
+								className="text-[14px] text-[#878787] font-medium"
+								style={{
+									fontFamily:
+										"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif",
+								}}
+							>
 								Mail Us
 							</span>
 							<p>
-								<h4 className="text-[#fff] text-[14px] p-[1px] ">
+								<h4
+									className="text-[#fff] text-[14px] p-[1px] "
+									style={{
+										fontFamily:
+											"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif",
+									}}
+								>
 									Flipkart Internet Private Limited,
 									<br />
 									Buildings Alyssa, Begonia
@@ -50,11 +72,23 @@ function Footer() {
 							</p>
 						</div>
 						<div className="">
-							<span className="text-[14px] text-[#878787] font-medium">
+							<span
+								className="text-[14px] text-[#878787] font-medium"
+								style={{
+									fontFamily:
+										"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif",
+								}}
+							>
 								Registered Office Address:
 							</span>
 							<p>
-								<h4 className="text-[#fff] text-[14px] p-[1px] ">
+								<h4
+									className="text-[#fff] text-[14px] p-[1px] "
+									style={{
+										fontFamily:
+											"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif",
+									}}
+								>
 									Flipkart Internet Private Limited,
 									<br /> Buildings Alyssa, Begonia &<br />
 									Clove Embassy Tech Village,

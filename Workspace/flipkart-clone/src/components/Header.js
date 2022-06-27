@@ -1,78 +1,102 @@
 import React from "react";
 import ButtonLogin from "./ButtonLogin";
-import { HiChevronDown } from "react-icons/hi";
+import Search from "./Search";
 import Space from "./Space";
 
 function Header() {
 	return (
-		<div className="lg:block hidden">
-			<div className="bg-[#2874f0] w-full p-3 md:block hidden">
+		<div className="hidden lg:block relative pb-14 min-w-[978px]">
+			<div className="fixed flex flex-auto will-change-transform w-full h-14 bg-[#2874f0] text-[#f0f0f0] z-30">
 				<Space />
-				<div className="max-w-[1248px] m-auto  flex flex-row items-center">
-					<div className="">
-						<img
-							className="w-[80px]"
-							src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
-							alt=""
-						/>
-						<div className="flex flex-row items-center whitespace-nowrap">
-							<span className="text-[11px] text-white">
-								Explore <span className="text-[#ffe500]">Pluse</span>
-							</span>
+				<div className="flex max-w-[1248px] w-full h-full mx-auto my-0 box-border">
+					<div className="flex min-w-[137px] justify-end ">
+						<div className="flex flex-col justify-center 2xl:ml-[5rem]">
 							<img
-								className="w-[10px] ml-[2px] mb-[2px]"
-								src=" https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png"
-								alt=""
+								className="w-[75px]"
+								src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+								alt="Flipkart"
 							/>
+
+							<span
+								className="flex text-[11px] italic mt-[0.5px] hover:underline leading-4"
+								style={{
+									fontWeight: "bold",
+								}}
+							>
+								Explore&nbsp;
+								<span
+									className="text-[#ffe500] font-medium  italic mr-0.5"
+									style={{
+										fontWeight: "bold",
+									}}
+								>
+									{" "}
+									Plus
+								</span>
+								<img
+									src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png"
+									alt="Plus"
+									className="w-[10px] h-[10px] mt-[0.5px] mr-[0.5px]"
+								/>
+							</span>
 						</div>
 					</div>
-					<div class=" w-95 md:w-[39.8rem]">
-						<div class="input-group relative  w-full flex flex-row">
-							<input
-								type="search"
-								class="form-control relative  min-w-0 block w-full ml-3 px-4 py-2 text-base font-normal text-black bg-white bg-clip-padding   transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-								placeholder="Search for products, brands and more"
-								aria-label="Search"
-								aria-describedby="button-addon2"
-							/>
-							<button
-								class="btn px-3  bg-[#ffffff] text-[#2874f0]  font-medium text-xs leading-tight   focus:outline-none focus:ring-0 flex items-center rounded-r-sm"
-								type="button"
-								id="button-addon2"
+					<Search />
+
+					<ButtonLogin />
+					<div className="flex items-center justify-end mx-5 max-w-[150px]">
+						<a
+							href="/"
+							className=" flex items-center leading-5  text-white w-auto"
+						>
+							<span
+								className="box-border whitespace-nowrap"
+								style={{
+									fontFamily: "Roboto,Arial,sans-serif",
+									fontWeight: "bold",
+								}}
+							>
+								Become a Seller
+							</span>
+						</a>
+					</div>
+					<div className="flex items-center justify-end mr-5 max-w-[150px]">
+						<div className="flex items-center cursor-pointer h-full leading-5 font-medium text-white">
+							<div
+								className="inline-block relative box-border overflow-hidden max-w-[108px] text-ellipsis mx-1"
+								style={{
+									fontFamily: "Roboto,Arial,sans-serif",
+									fontWeight: "bold",
+								}}
+							>
+								More
+							</div>
+							<svg
+								className="rotate-90 ml-[4px]"
+								width="4.7"
+								height="8"
+								viewBox="0 0 16 27"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+									fill="#fff"
+									class="_2gTTdy"
+								></path>
+							</svg>{" "}
+						</div>
+					</div>
+					<div className="flex items-center justify-end ml-5  max-w-[150px]">
+						<div className="inline-block relative">
+							<a
+								href="/"
+								className="flex items-center leading-5 text-base font-medium text-white relative"
 							>
 								<svg
-									aria-hidden="true"
-									focusable="false"
-									data-prefix="fas"
-									data-icon="search"
-									class="w-5 font-light"
-									role="img"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 512 512"
-								>
-									<path
-										fill="currentColor"
-										d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
-									></path>
-								</svg>
-							</button>
-						</div>
-					</div>
-					<ButtonLogin />
-					<div className="text-[17px] text-[#fff] font-medium flex flex-row gap-8 whitespace-nowrap">
-						<span>Become a Seller</span>
-						<span className="flex flex-row items-center gap-1">
-							More
-							<span>
-								<HiChevronDown />
-							</span>
-						</span>
-						<span className="flex flex-row items-center gap-1">
-							<span>
-								<svg
-									class="V3C5bO"
-									width="14"
-									height="14"
+									className="mx-2"
+									class="mx-2"
+									width="16"
+									height="16"
 									viewBox="0 0 16 16"
 									xmlns="http://www.w3.org/2000/svg"
 								>
@@ -82,9 +106,17 @@ function Header() {
 										fill="#fff"
 									></path>
 								</svg>
-							</span>
-							Cart
-						</span>
+								<span
+									className=""
+									style={{
+										fontFamily: "Roboto,Arial,sans-serif",
+										fontWeight: "bold",
+									}}
+								>
+									Cart
+								</span>
+							</a>
+						</div>
 					</div>
 				</div>
 				<Space />

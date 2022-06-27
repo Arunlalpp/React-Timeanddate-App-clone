@@ -1,11 +1,7 @@
 import React from "react";
 
 function Space() {
-	return (
-		<div>
-			<div className="min-w-[124px] bg-red-700 z-40"></div>
-		</div>
-	);
+	return <div class="h-full w-[124px]"></div>;
 }
 
 export default Space;

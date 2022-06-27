@@ -11,11 +11,19 @@ function DisclosureChecked() {
 					{({ open }) => (
 						<>
 							<Disclosure.Button className="flex w-full  rounded-lg bg-white  py-2 text-left text-sm font-medium   focus:outline-none focus-visible:ring   focus-visible:ring-opacity-75">
-								<div className="flex flex-row justify-between">
-									<span className="text-[#000] text-[16px]">BRAND</span>
+								<div className="flex flex-row justify-between gap-[11rem]">
+									<span
+										className="text-[#212121] text-[13px]"
+										style={{
+											fontFamily: "Roboto,Arial,sans-serif",
+											fontWeight: "bold",
+										}}
+									>
+										BRAND
+									</span>
 									<HiChevronDown
 										className={`${
-											open ? "rotate-180 transform" : ""
+											open ? "rotate-180 transform" : "text-[#878787]"
 										} h-5 w-5 text-[#000]`}
 									/>
 								</div>

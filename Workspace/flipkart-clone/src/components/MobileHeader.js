@@ -3,7 +3,7 @@ import MobileNavlink from "./MobileNavlink";
 
 function MobileHeader() {
 	return (
-		<div className="lg:hidden block">
+		<div className="lg:hidden block w-full fixed z-10">
 			<div className="bg-[#2874f0] ">
 				<div className="max-w-[95%] m-auto flex flex-row justify-between py-[14px]">
 					<div className="flex flex-row items-center gap-3">
@@ -24,7 +24,7 @@ function MobileHeader() {
 								></path>
 							</svg>
 						</div>
-						<div className="">
+						<div className="mt-[1px]">
 							<img
 								className="w-[23px]"
 								src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/logo_lite-cbb357.png"
@@ -32,10 +32,12 @@ function MobileHeader() {
 							/>
 						</div>
 						<div className="text-white mt-[]">
-							<span>Home Furnishing</span>
+							<span className="font-['sans'] text-[14px] font-medium">
+								Home Furnishing
+							</span>
 						</div>
 					</div>
-					<div className="flex flex-row items-center gap-7">
+					<div className="flex flex-row items-center gap-[1.6rem]">
 						<div>
 							<svg
 								fill="#fff"
@@ -63,7 +65,9 @@ function MobileHeader() {
 								</g>
 							</svg>
 						</div>
-						<span className="text-white font-light">Login</span>
+						<span className="text-white font-['sans'] text-[15px] font-medium mr-[1px]">
+							Login
+						</span>
 					</div>
 				</div>
 			</div>

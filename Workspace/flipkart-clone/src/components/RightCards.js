@@ -7,25 +7,30 @@ function RightCards() {
 	return (
 		<div className="bg-[#eff1f4]">
 			<div className=" pt-2 bg-white">
-				<div className="grid grid-cols-4 gap-1 border-b-[1px] border-[#e0e0e0] pb-8">
+				<div className="grid grid-cols-4  border-b-[1px] border-[#e0e0e0] pb-8 ">
 					{productDatas?.map((productData) => {
 						return (
-							<div className="bg-white max-w-[410px] group hover:shadow-2xl transition duration-700 ease-in-out">
-								<div className="relative">
-									<img
-										className="w-[400px] h-[400px] p-3"
-										src={productData.url}
-										alt=""
-									/>
-
-									<div className="absolute left-[90%] top-[10%]">
+							<div className="bg-white group hover:shadow-2xl transition duration-700 ease-in-out relative">
+								<div className="relative block">
+									<div className="w-[230px] h-[260px]   2xl:w-[280px] 2xl:h-[300px] mx-auto">
+										<img
+											className="opacity-100 absolute inset-0 m-auto max-w-full max-h-full px-2"
+											src={productData.url}
+											alt=""
+										/>
+									</div>
+									<div className="absolute left-[85%] top-[10%] z-0">
 										<AiFillHeart className="text-[#878787]" />
 									</div>
 								</div>
-								<div className="p-3">
-									<p className="w-[15vw] text-[16px]">{productData.title}</p>
-									<span>{productData.text}</span>
-									<div className="flex flex-row gap-2">
+								<div className="cursor-pointer px-4">
+									<p className=" text-[14px] hover:text-[#2874f0] overflow-hidden text-[#212121] pb-[5px] leading-5">
+										{productData.title}
+									</p>
+									<span className="text-[#878787] text-[14px] pb-[8px]">
+										{productData.text}
+									</span>
+									<div className="flex flex-row gap-2 pt-[5px]">
 										<span
 											className="bg-[#388e3c] text-[12px] rounded-sm text-white flex flex-row items-center gap-1 font-semibold"
 											style={{ padding: "2px 4px 2px 6px" }}
@@ -45,13 +50,17 @@ function RightCards() {
 										</span>
 									</div>
 									<div className="">
-										<span>{productData.price}</span>
-										<span>₹215</span>
-										<span>{productData.offer}</span>
+										<span className="text-[16px] pr-1">
+											{productData.price}
+										</span>
+										<span className="text-[#878787] line-through text-[14px] pr-1">
+											₹215
+										</span>
+										<span className="text-[#388e3c]">{productData.offer}</span>
 									</div>
 								</div>
-								<div className="absolute hidden group-hover:block box-border z-10 shadow-lg bg-white w-[16vw]">
-									<span className=" px-3">size:double</span>
+								<div className="hidden group-hover:block  z-20 absolute left-0 w-full bg-white py-[10px] px-4 shadow-lg">
+									<p className="ml-0.5">Size: King</p>
 								</div>
 							</div>
 						);

@@ -1,35 +1,131 @@
-import { HiChevronDown } from "react-icons/hi";
-
 const navLinks = [
 	{
 		text: "Electronics",
-		icon: <HiChevronDown />,
+		icon: (
+			<svg
+				width="4.7"
+				height="8"
+				viewBox="0 0 16 27"
+				xmlns="http://www.w3.org/2000/svg"
+				class="RWB9Wm"
+			>
+				<path
+					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+					fill="#fff"
+					class="_2JzwqO"
+				></path>
+			</svg>
+		),
 	},
 	{
 		text: "TVs & Appliances",
-		icon: <HiChevronDown />,
+		icon: (
+			<svg
+				width="4.7"
+				height="8"
+				viewBox="0 0 16 27"
+				xmlns="http://www.w3.org/2000/svg"
+				class="RWB9Wm"
+			>
+				<path
+					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+					fill="#fff"
+					class="_2JzwqO"
+				></path>
+			</svg>
+		),
 	},
 	{
 		text: "Men",
-		icon: <HiChevronDown />,
+		icon: (
+			<svg
+				width="4.7"
+				height="8"
+				viewBox="0 0 16 27"
+				xmlns="http://www.w3.org/2000/svg"
+				class="RWB9Wm"
+			>
+				<path
+					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+					fill="#fff"
+					class="_2JzwqO"
+				></path>
+			</svg>
+		),
 	},
 	{
 		text: "Women",
-		icon: <HiChevronDown />,
+		icon: (
+			<svg
+				width="4.7"
+				height="8"
+				viewBox="0 0 16 27"
+				xmlns="http://www.w3.org/2000/svg"
+				class="RWB9Wm"
+			>
+				<path
+					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+					fill="#fff"
+					class="_2JzwqO"
+				></path>
+			</svg>
+		),
 	},
 	{
 		text: "Baby & Kids",
-		icon: <HiChevronDown />,
+		icon: (
+			<svg
+				width="4.7"
+				height="8"
+				viewBox="0 0 16 27"
+				xmlns="http://www.w3.org/2000/svg"
+				class="RWB9Wm"
+			>
+				<path
+					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+					fill="#fff"
+					class="_2JzwqO"
+				></path>
+			</svg>
+		),
 	},
 
 	{
 		text: "Home & Future",
-		icon: <HiChevronDown />,
+		icon: (
+			<svg
+				width="4.7"
+				height="8"
+				viewBox="0 0 16 27"
+				xmlns="http://www.w3.org/2000/svg"
+				class="RWB9Wm"
+			>
+				<path
+					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+					fill="#fff"
+					class="_2JzwqO"
+				></path>
+			</svg>
+		),
 	},
 
 	{
 		text: "Sports,Books & More",
-		icon: <HiChevronDown />,
+		icon: (
+			<svg
+				width="4.7"
+				height="8"
+				viewBox="0 0 16 27"
+				xmlns="http://www.w3.org/2000/svg"
+				class="RWB9Wm"
+			>
+				<path
+					d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+					fill="#fff"
+					class="_2JzwqO"
+				></path>
+			</svg>
+		),
 	},
 
 	{
@@ -526,6 +622,57 @@ const mobileCards = [
 		offer: "60% off",
 	},
 ];
+
+const mobileContainerCards = [
+	{
+		url: "https://rukminim1.flixcart.com/image/612/612/l1zc6fk0/pillow/0/z/q/12-7-president-size-1-sc-p-mfpilw-sleepycat-original-imagdezwys69zrtq.jpeg?q=70",
+		title: "SleepyCat Bamboo Fabric Standard Size (25x16 inches) Me...",
+		text: "White and Grey",
+		rating: "4.1",
+		price: "₹215",
+		offer: "10% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/612/612/kynb6vk0/slipcover/e/h/s/4-0-1-set4-chair-cover-diamond-wink-winkel-45-original-imagatuz3seskknx.jpeg?q=70",
+		title: "SleepyCat Bamboo Fabric Standard Size (25x16 inches) Me...",
+		text: "White and Grey",
+		rating: "4.1",
+		price: "₹215",
+		offer: "10% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/612/612/l4n2oi80/bedsheet/z/u/4/double-size-bedsheet-with-2-pillow-covers-1-mickey-mouse-print-original-imagfg46yrq82hp3.jpeg?q=70",
+		title: "SleepyCat Bamboo Fabric Standard Size (25x16 inches) Me...",
+		text: "White and Grey",
+		rating: "4.1",
+		price: "₹215",
+		offer: "10% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/612/612/kfa0b680-0/bedsheet/s/g/x/bedsheet-3093-flat-angel-homes-original-imafvrhjhknpjhmw.jpeg?q=70",
+		title: "SleepyCat Bamboo Fabric Standard Size (25x16 inches) Me...",
+		text: "White and Grey",
+		rating: "4.1",
+		price: "₹215",
+		offer: "10% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/612/612/kuzuoi80/bedsheet/w/w/s/yellow-bindiya-1-mk-52-flat-clothology-original-imag7zsa8mdnzkqn.jpeg?q=70",
+		title: "SleepyCat Bamboo Fabric Standard Size (25x16 inches) Me...",
+		text: "White and Grey",
+		rating: "4.1",
+		price: "₹215",
+		offer: "10% off",
+	},
+	{
+		url: "https://rukminim1.flixcart.com/image/612/612/ksez24w0/mosquito-net/4/a/i/single-bed-polyester-adults-foldable-mosquito-net-machhardani-original-imag5zqjv8nbzmnp.jpeg?q=70",
+		title: "SleepyCat Bamboo Fabric Standard Size (25x16 inches) Me...",
+		text: "White and Grey",
+		rating: "4.1",
+		price: "₹215",
+		offer: "10% off",
+	},
+];
 export {
 	navLinks,
 	cardContainers,
@@ -534,4 +681,5 @@ export {
 	leftDatas,
 	homeDatas,
 	mobileCards,
+	mobileContainerCards,
 };

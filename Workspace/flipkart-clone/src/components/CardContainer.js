@@ -6,12 +6,12 @@ function CardContainer() {
 	return (
 		<div className="lg:block hidden">
 			<div className="bg-[#eff1f4] py-3">
-				<div className="max-w-[80%] m-auto bg-white">
+				<div className="max-w-[98%] 2xl:w-[80%] m-auto bg-white">
 					<h2 className="text-[20px] px-[15px] py-[20px] text-[#000] font-medium border-b-[1px] border-[#f0f0f0]">
 						Reviews for Popular Home Furnishing
 					</h2>
 				</div>
-				<div className="max-w-[80%] m-auto bg-white">
+				<div className="max-w-[98%] 2xl:w-[80%] m-auto bg-white">
 					{cardContainers?.map((CardContainer) => {
 						return (
 							<div className=" py-[20px] flex flex-row justify-between  border-b-[1px] border-[#f0f0f0]">

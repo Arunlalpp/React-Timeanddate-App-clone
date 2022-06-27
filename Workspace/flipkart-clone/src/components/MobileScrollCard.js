@@ -1,5 +1,7 @@
 import React from "react";
 import { mobileCards } from "../Constants";
+import MobileCard from "./MobileCard";
+import TopPicksCard from "./TopPicksCard";
 
 function MobileScrollCard() {
 	return (
@@ -53,6 +55,9 @@ function MobileScrollCard() {
 					</div>
 				</div>
 			</div>
+			<MobileCard />
+			<TopPicksCard />
+			<MobileCard />
 		</div>
 	);
 }

@@ -1,19 +1,19 @@
 import React from "react";
 import { AiFillStar } from "react-icons/ai";
 import { AiFillHeart } from "react-icons/ai";
-import { productDatas } from "../Constants";
+import { mobileContainerCards } from "../Constants";
 
 function MobileCard() {
 	return (
 		<div className="lg:hidden block">
-			<div className="grid grid-cols-2 gap-1 border-b-[1px] border-[#e0e0e0] pb-8">
-				{productDatas?.map((productData) => {
+			<div className="grid grid-cols-2 gap-1 md:grid-cols-3 border-b-[1px] border-[#e0e0e0] pb-8">
+				{mobileContainerCards?.map((mobileContainerCard) => {
 					return (
 						<div className="bg-white max-w-[212.5px]">
 							<div className="relative">
 								<img
 									className="w-[212.5px] h-[212.5px] p-1"
-									src={productData.url}
+									src={mobileContainerCard.url}
 									alt=""
 								/>
 

@@ -46,8 +46,8 @@ function ProgressBar() {
 									<option value="Min" className="px-[7px]">
 										Min
 									</option>
-									<option value="500" className="px-[7px]">
-										₹500
+									<option value="5000+" className="px-[7px]">
+										6000+
 									</option>
 									<option value="1000" className="px-[7px]">
 										₹1000
@@ -71,6 +71,9 @@ function ProgressBar() {
 							</div>
 							<div className="inline-block  flex-grow">
 								<select className="font-sans w-full border border-[e0e0e0] rounded-[1px] appearance-none bg-white h-6 text-sm text-[#212121] px-[5px] outline-none">
+									<option value="6000+" className="px-[7px]">
+										6000+
+									</option>
 									<option value="500" className="px-[7px]">
 										₹500
 									</option>
@@ -83,14 +86,17 @@ function ProgressBar() {
 									<option value="2000" className="px-[7px]">
 										₹2000
 									</option>
-									<option value="2500" className="px-[7px]">
-										₹2500
+									<option value="3000" className="px-[7px]">
+										₹3000
+									</option>
+									<option value="4000" className="px-[7px]">
+										₹4000
 									</option>
 									<option value="5000" className="px-[7px]">
 										₹5000
 									</option>
-									<option value="5000+" className="px-[7px]">
-										₹5000+
+									<option value="6000+" className="px-[7px]">
+										₹6000
 									</option>
 								</select>
 							</div>

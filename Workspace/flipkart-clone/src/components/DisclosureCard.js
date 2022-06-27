@@ -12,12 +12,12 @@ function DisclosureCard() {
 							<Disclosure.Button className="flex w-full  rounded-lg bg-white  py-2 text-left text-sm font-medium text-purple-900  focus:outline-none focus-visible:ring   focus-visible:ring-opacity-75">
 								<HiChevronDown
 									className={`${
-										open ? "rotate-180 transform" : ""
+										open ? "rotate-270 transform" : "rotate-90"
 									} h-5 w-5 text-[#000]`}
 								/>
-								<span className="text-[#000] text-[16px]">Home Furnishing</span>
+								<span className="text-[#000] text-[14px]">Home Furnishing</span>
 							</Disclosure.Button>
-							<Disclosure.Panel className="px-4 pt-4 pb-2 ml-6 text-base text-[#000]">
+							<Disclosure.Panel className="px-4 pb-2 ml-6 text-[14px] text-[#212121]">
 								<ul>
 									<li className="py-1 ">Bed Linen & Blankets</li>
 									<li className="py-1 ">Curtain & Accessories</li>
