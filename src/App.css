@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-image {
+    background: #edf9f1 url('https://c.tadst.com/gfx/n/banner--2021.png') top no-repeat;
+    background-size: 2090px auto;
+    height: 110px;
+    position: relative;
+    display: flex;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.analog-clock__marker {
+    transform: rotate(240deg) translateZ(0px);
+    transform: rotate(238deg) translateZ(0px);
+    font-size: 12px;
+    color: aliceblue;
 }
+@media only screen and (max-width: 768px) {
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    .banner-image {
+        display: none;
+    }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .banner-mobile {
+        background-color: #edf9f1;
+        display: block;
+        height: 12.5vh;
+    }
 }
