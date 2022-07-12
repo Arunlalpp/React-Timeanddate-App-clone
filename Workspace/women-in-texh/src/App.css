@@ -1,0 +1,15 @@
+.slick-dots {
+    position: absolute !important;
+    top: 90% !important;
+}
+
+.slick-dots li {
+    color: #fff !important;
+}
+
+.slick-prev,
+.slick-next {
+    color: #fff !important;
+    width: 30px !important;
+    height: 30px !important;
+}
