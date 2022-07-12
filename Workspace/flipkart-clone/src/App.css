@@ -1,0 +1,4 @@
+.text-box input.input-box,
+textarea {
+    color: red;
+}

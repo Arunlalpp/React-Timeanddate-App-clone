@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FocuseArea from "./components/FocuseArea";
+import MissionEmpover from "./components/MissionEmpover";
+import Navbar from "./components/Navbar";
+import CardContainer from "./components/CardContainer";
+import WomenTechGlobal from "./components/WomenTechGlobal";
+import WomenTechGrowing from "./components/WomenTechGrowing";
+import WomenTechpatronage from "./components/WomenTechpatronage";
+import NewsCardContainer from "./components/NewsCardContainer";
+import PastEvents from "./components/PastEvents";
+import CompanyLogos from "./components/CompanyLogos";
+import Footer from "./components/Footer";
+import SliderShow from "./components/SliderShow";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="relative">
+			<Navbar />
+			<SliderShow />
+			<MissionEmpover />
+			<FocuseArea />
+			<CardContainer />
+			<WomenTechGlobal />
+			<WomenTechGrowing />
+			<WomenTechpatronage />
+			<NewsCardContainer />
+			<PastEvents />
+			<CompanyLogos />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
